@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="3B6F9CF4-129A-7E2A-2F2B-5E99692E9469">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 07:23:11 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<engineerTo>
+<item key="2CEDB51F-3AC2-36C7-8BE7-29A2BDEC3E5B" value="true"/>
+</engineerTo>
+<sourcePk>F50F797B-84FD-557A-B5A6-7B0973B71581</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6EFB778-9736-D680-9615-0FEE243522AC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0D87D4FC-F71B-0827-DAF2-8E43B310F195</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

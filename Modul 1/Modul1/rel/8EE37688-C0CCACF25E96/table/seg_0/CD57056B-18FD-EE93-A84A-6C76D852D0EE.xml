@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD57056B-18FD-EE93-A84A-6C76D852D0EE" name="PENGIRIMAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>26E8C176-952E-1F29-B1F9-E9D90ED7723A</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMOR_PENGIRIMAN" id="AEF1B10D-87ED-B0FF-3936-DA484B6149AA">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>D05AD0AA-C2F4-0785-FC10-C51BF7D9B1EF</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TANGGAL_PENGIRIMAN" id="FC7A4F8E-D60F-DA83-4725-237404960823">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>DDE468FA-C608-A40C-D428-A165CDE59F0E</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMA_PENERIMA" id="F7515F5E-AD43-D459-B906-E05BAF9BC3C2">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>D8F97DDB-E2D9-FCF7-84D6-160EFA94994C</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELP_PENERIMA" id="08C2F4A2-B13F-0DD5-36F1-38A300DB3B65">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>D78E3D73-D21E-7DDE-CFC8-4D129BFCA936</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALAMAT_PENERIMA" id="7D027B10-CA75-7B8B-3865-E6B6F3CA65A4">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>FF2D341C-C1BC-A789-71A2-BAE102D6538B</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_PENGIRIMAN" id="930D1AC8-D9E4-8E30-30A1-94FCB33C5493">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>F81BCE6B-247B-8811-09E8-AA51F52EFC65</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KETERANGAN" id="5DFF49B7-F807-9C52-7FF8-C611F22A0C39">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>2FDD4CFF-0F50-6D25-A908-214A441817C7</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEMESANAN_NOMOR_PEMESANAN" id="9FA2CFE3-BDFC-C928-A91B-E8A9F0A6FBF4">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>BA0B4ED5-D79E-1C40-6E16-1DEBEDC610D1</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E7FF9C6-4A2B-0FDC-8470-C01BE78D741B" referredColumn="61165CA9-BAF4-C6D5-D81F-D1CEB3BD0517"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89BB1D22-AD14-6006-6C08-E1A0D45218B6" name="PENGIRIMAN_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>DE552BC6-B307-FFBD-2B67-0CD5B256550E</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEF1B10D-87ED-B0FF-3936-DA484B6149AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FEF46CD-2D0D-B209-B790-2FA1A5BE7C88" name="PENGIRIMAN__IDX">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7EBE8AC0-2A18-1F78-0C59-2CD176070602</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9FA2CFE3-BDFC-C928-A91B-E8A9F0A6FBF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0901D54-2A8A-2078-E59B-7ACF5A4C5385" name="PENGIRIMAN_PEMESANAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>7EBE8AC0-2A18-1F78-0C59-2CD176070602</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FA2CFE3-BDFC-C928-A91B-E8A9F0A6FBF4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

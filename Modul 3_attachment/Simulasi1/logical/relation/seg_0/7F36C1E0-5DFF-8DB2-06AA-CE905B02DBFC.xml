@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="memiliki" directorySegmentName="seg_0" id="7F36C1E0-5DFF-8DB2-06AA-CE905B02DBFC">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 13:42:43 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<sourcePk>FD8E0C5D-BA5B-15BC-1E32-74DB744575D7</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>dapat memiliki banyak</nameOnSource>
+<nameOnTarget>hanya dapat termasuk</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>68D1F34C-6A8D-E2E9-B952-25236BB42D32</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>420F1032-2629-4C22-D156-514AF32A860F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

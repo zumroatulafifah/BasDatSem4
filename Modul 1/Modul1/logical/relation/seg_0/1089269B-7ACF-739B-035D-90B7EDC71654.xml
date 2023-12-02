@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ASAL" directorySegmentName="seg_0" id="1089269B-7ACF-739B-035D-90B7EDC71654">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 08:55:50 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<sourcePk>D76F0764-F9B2-DD99-C6C4-CC5AB3690DB6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DD184E43-78A3-B1BF-6D86-211D41889116</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD6266AA-3713-2733-6BF2-AA977E8DD8E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68D1F34C-6A8D-E2E9-B952-25236BB42D32" name="KATEGORI">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kode" id="E6E18058-DAA5-CA67-9FE4-10D128768780">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<importedID>64D54754-9A86-3ED2-28B9-ABD0DA018820</importedID>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_kategori" id="0ED496B8-C384-AA1B-96FA-5309F9AA3D2A">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<importedID>60209889-66F5-BE9D-6C91-8638E681E490</importedID>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD8E0C5D-BA5B-15BC-1E32-74DB744575D7" name="KATEGORI PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6E18058-DAA5-CA67-9FE4-10D128768780</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

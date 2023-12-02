@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C4CD179-1F72-48E6-3F70-71B3C3E67F3B" name="JENIS BARANG">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 17:06:47 UTC</createdTime>
+<ownerDesignName>2NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="F2730390-0FDD-C7C3-271F-4B4CAF185D8A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kode_jenis" id="03908FC5-1140-CD89-3340-2DF7D81BFE1B">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 17:07:10 UTC</createdTime>
+<ownerDesignName>2NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="F2730390-0FDD-C7C3-271F-4B4CAF185D8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis_barang" id="84D8F312-9601-76BD-0198-AC33870218DF">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 17:07:38 UTC</createdTime>
+<ownerDesignName>2NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="F2730390-0FDD-C7C3-271F-4B4CAF185D8A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="217EF386-6B83-7D4D-CEF7-A1FE22406E4A" name="JENIS BARANG PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 17:07:22 UTC</createdTime>
+<ownerDesignName>2NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="F2730390-0FDD-C7C3-271F-4B4CAF185D8A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>03908FC5-1140-CD89-3340-2DF7D81BFE1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

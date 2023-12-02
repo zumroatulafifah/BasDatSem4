@@ -1,0 +1,29 @@
+1. Hubungan antara alamat pelanggan dan pelanggan  adalah one to many, karena satu alamat dapat terkait dengan banyak pelanggan jika lamat tersebut digunakan oleh keluarga/toko furnitur yang memiliki banyak pengunjung
+
+2. hubungan antara pegawai dan pelanggan adalah one to many, artinya satu pegawai dapat melayani banyak pelanggan, dan satu pelanggan hanya dapat dilayani oleh satu pegawai, namun ada juga yang one to one, satu pelanggan dilayani satu pegawai dan sebaliknya, tergantung bisnis nya 
+
+3. hubungan antara pelanggan dan barang adalah one to many, artinya satu pelanggan bisa membeli banyak barang, dan satu barang hanya dapat dibeli oleh 1 pelanggan.
+
+4. hubungan antara barang dan pemesanan adalah one to many, artinya satu barang dapat dipesan oleh banyak pelanggan, dan satu pelanggan dapat memesan satu barang
+
+5. hubungan barang dengansupplier adalah many to one, artinya Jika suatu supplier menyediakan banyak jenis barang atau produk untuk berbagai pelanggan, maka hubungan relasinya dengan pelanggan dapat dianggap sebagai one-to-many. Dalam hal ini, supplier memiliki banyak pelanggan yang membeli barang dari mereka.
+
+Namun, jika suatu supplier hanya menyediakan satu jenis barang atau produk untuk satu pelanggan, maka hubungan relasinya dapat dianggap sebagai one-to-one. Dalam hal ini, supplier memiliki hubungan yang erat dengan satu pelanggan tertentu yang membeli barang dari mereka.
+
+6. hubungan relasi antara barang dan kategori adalah one to many, yang berarti satu kategori dapat memiliki banyak barang. Misalnya, kategori "meja" dapat memiliki banyak jenis dan model meja yang berbeda. Namun, satu barang biasanya hanya termasuk dalam satu kategori.
+
+7. hubungan relasi antara pemesanan dan pembayaran adalah one to one, yang berarti satu pemesanan akan terkait dengan satu pembayaran. Setiap pemesanan memiliki nomor unik atau kode yang biasanya digunakan untuk mengidentifikasi pembayaran yang sesuai dengan pemesanan tersebut. Meskipun satu pembayaran dapat mencakup beberapa pemesanan, tetapi setiap pemesanan hanya akan terkait dengan satu pembayaran yang dilakukan.
+
+8. hubungan relasi antara pembayaran dengan tunai, bank, dan kredit adalah many to many atau banyak ke banyak. Artinya, toko furnitur menerima pembayaran dari banyak pelanggan yang berbeda, baik dalam bentuk uang tunai maupun melalui transfer bank atau kredit. Di sisi lain, toko furnitur juga dapat mengirimkan uang ke berbagai rekening bank untuk membayar supplier atau biaya operasional.
+
+Dalam hal ini, hubungan antara toko furnitur dan pelanggan, bank, atau institusi keuangan lainnya adalah many to many, karena toko furnitur dapat menerima dan mengirimkan pembayaran dari dan ke banyak pihak yang berbeda. Namun, dalam setiap transaksi pembayaran, hubungan antara pembeli dan penjual tetaplah one to one, karena setiap transaksi melibatkan satu pembeli dan satu penjual.
+
+
+
+9. hubungan relasi antara pengiriman dan alamat pelanggan adalah one to one atau satu ke satu. Artinya, setiap pengiriman barang melibatkan satu alamat pelanggan yang memesan produk dan satu pegawai yang bertanggung jawab untuk mengirimkan produk tersebut ke alamat tersebut.
+
+Dalam hal ini, tidak ada keterlibatan pihak ketiga atau lebih dalam proses pengiriman barang dari toko furnitur ke alamat pelanggan. Oleh karena itu, hubungan antara pengiriman dan alamat pelanggan adalah one to one.
+
+10. hubungan relasi antara pengiriman dan alamat pemesanan adalah one to many atau satu ke banyak. Artinya, setiap pengiriman barang bisa melibatkan banyak alamat pemesanan dari pelanggan yang berbeda.
+
+Dalam hal ini, setiap pelanggan bisa memesan produk dari toko furnitur dengan alamat pemesanan yang berbeda-beda. Kemudian, toko furnitur dapat mengirimkan produk tersebut ke berbagai alamat pemesanan yang berbeda tersebut. Oleh karena itu, hubungan antara pengiriman dan alamat pemesanan adalah one to many.

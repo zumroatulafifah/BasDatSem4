@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2876005C-5662-2097-4AB2-0488A80FB836" name="MAHASISWA">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>E58A815E-8A85-0CE1-9A26-70BD6FE21DD5</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_mhs" id="6C9FC731-3CAE-255A-5DB5-038B7ECD1883">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>E2CE7AB6-312F-FAD6-CA3C-3ACD4E16374A</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_mhs" id="EA202D19-1C5E-B945-2D9A-CB01BBD4B1C4">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>488C821B-357A-7D8C-B530-130D5114E8F3</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="6B08D297-6EC3-2A8E-79C7-F682691EC1A7">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>1A8C3D3D-A4D9-0766-324B-F6DE9B588C8E</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JURUSAN_id_jurusan" id="1E498733-68E1-BD2A-3FD4-0A59C685BEE1">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>EC8A4954-A1B3-AD14-B16B-772A439F3AAF</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD4E19DD-8F90-4242-F475-6954FE95EBA9" referredColumn="5FB9D8BE-7615-AAFA-A3A0-38BEC15949F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DC77B5D-F69C-478B-D33D-8D4CAE4EF8F7" name="MAHASISWA_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>78CA02E7-CEA0-BBC5-8A60-DB5A93B76025</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C9FC731-3CAE-255A-5DB5-038B7ECD1883"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E004E2DF-1697-8E81-EDF4-BDBE23F20DA5" name="MAHASISWA_JURUSAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>D2C7B80E-927E-BCA4-DBF3-2B08FF18712E</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E498733-68E1-BD2A-3FD4-0A59C685BEE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

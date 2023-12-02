@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="154F2A77-4B29-7EBA-C8A7-44DB05A222A2" name="PEMBAYARAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>0CBA8C02-6F1B-4675-B8CE-3BD11236CF45</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TUNAI" id="EF68EE5D-02EC-E6EE-7FA9-EBB86A3C606B">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>070BD102-DF56-0E0E-4B31-ECF90BD8FF25</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KREDIT" id="2023E2EE-0BE9-E5F7-9E98-9D5AB310A137">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>D10ABD1F-5078-00B5-04F5-A6370754119B</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANK" id="02A8FD45-D085-B7AD-F74E-618DC46B282F">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>24B558F8-540B-E699-0154-9D95BBD805AD</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E961516C-14E1-6C62-D255-D39D671C025F" name="PEMBAYARAN_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>7A6F40D5-74B1-ACA0-DD31-9B0031AEFA48</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CC722F7-1840-3C39-0ED3-778E48C3129B" name="PEMESANAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>705A11C9-39A5-4CD4-4A23-1738E2A96B57</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="no_pesanan" id="9D357916-7D3B-5B47-A334-EB0F3B3F8579">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>B28A21F6-4F15-0B8D-42F2-B4B19619D3AA</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_pesanan" id="38B7556C-DDEA-5917-0FC1-C319DCEF9B83">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>5078DC58-9AAA-2116-2CC3-3154D4AB1FAC</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_harga" id="D10B8F6F-C213-8A7B-1736-7CE5CB2F5BF0">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>AE81AAD8-876C-E05F-4CC8-C395362E0D82</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BARANG_kode" id="C9E6D0FD-EF90-BE69-C1EF-AF909625E22A">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>BF0604C4-EF58-7FC7-CFF3-5609F527BC7F</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="534327EC-F093-961E-E514-526CB7ADB829" referredColumn="0DF08C81-958E-D775-2289-C8B497A860AF"/>
+</associations>
+</Column>
+<Column name="PEMBAYARAN_id_pembayaran" id="61319388-2F73-8DE4-F721-E7C21D529329">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>1DCCA375-312A-C6FE-2712-3C45D38A6944</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC006A7C-6908-F4DD-6558-AA6F8B6F4043" referredColumn="9309E67B-E375-B77F-D060-7B7E4A0EE04E"/>
+</associations>
+</Column>
+<Column name="PELANGGAN_pelanggan_id" id="CE70AD5C-0B58-E4AA-EDF7-E9476A4A8656">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>5C15CE06-16E6-409D-1CB5-BB12C84A8C91</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="70BF6745-FD5D-B775-F98F-C3907507868C" referredColumn="84844EC2-2C8C-1D53-816E-9F974E34294A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21F8DDDB-EB04-5A0D-25B6-A1A6CFC6C7D0" name="PEMESANAN_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>39F30227-66B5-6A1F-8CB4-26413B7552F9</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D357916-7D3B-5B47-A334-EB0F3B3F8579"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38D361F2-40BB-7AA2-0E95-930FFA91391A" name="PEMESANAN__IDX">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AF998385-604A-7B70-A40E-175446BC544D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="61319388-2F73-8DE4-F721-E7C21D529329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22A88A35-5056-F5A2-C7E0-428B5368052F" name="PEMESANAN_BARANG_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>4CAF0380-07C1-4D78-795C-5EC7FEFE7C1C</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9E6D0FD-EF90-BE69-C1EF-AF909625E22A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="627D6C4A-C841-F12C-A2D9-9AB770632362" name="PEMESANAN_PELANGGAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>1636E6AE-34B9-46A6-04F1-BBE294BC3ABB</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE70AD5C-0B58-E4AA-EDF7-E9476A4A8656"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="283DF54B-A252-042E-BEE8-C437C3D13EB5" name="ID_PEMBAYARAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>AF998385-604A-7B70-A40E-175446BC544D</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61319388-2F73-8DE4-F721-E7C21D529329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

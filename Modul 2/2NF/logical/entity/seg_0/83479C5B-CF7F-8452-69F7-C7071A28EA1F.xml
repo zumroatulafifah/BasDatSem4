@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83479C5B-CF7F-8452-69F7-C7071A28EA1F" name="RIWAYAT SAKIT">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:29:58 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kode Sakit" id="1C3386B6-14AF-6955-053A-42305C142352">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:30:21 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tgl Periksa" id="CB5E1080-6CA9-7370-C94D-36D427770777">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:33:55 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Desk Sakit" id="741D6657-6A76-C809-9095-DE0D32CD276D">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:44:00 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No Pasien" id="C43FAF2A-5948-1EE1-786A-40D3920BB039">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:55:31 UTC</createdTime>
+<generatorID>94BEB578-AED0-531A-B6FE-14F3AD453244</generatorID>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<referedAttribute>96F67636-1EA6-2149-7FA2-5F62176700BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kode Dokter" id="9C560232-5686-1C2E-0C7C-4420EAE00848">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 08:26:15 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama Dokter" id="8D8D096C-8B26-FDE8-A0EF-C9C43BCD3C4A">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 08:26:26 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7537A9BE-DCBD-044E-A558-B5A6E854617A" name="RIWAYAT SAKIT PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:30:38 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C3386B6-14AF-6955-053A-42305C142352</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

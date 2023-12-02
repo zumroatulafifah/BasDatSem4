@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AAB13FF-6431-E974-3DA2-ECD0B918A0DB" name="USER">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>E90F24C0-52F6-EF9C-96AC-E950F713170E</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USER" id="59DFA380-FBBA-8C35-4A6B-50F1DFEEE60B">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>5E66B0C7-B7EF-E64A-9F05-508378383043</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMA_USER" id="1DAD9316-1883-B663-B094-2B00ABE375EA">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>904BC934-7F9F-9044-6312-9013D6D3504E</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ID_USER" id="B5C0DC4C-51BF-D239-06AF-71ED2B4CC039">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>2E00DFEE-00B7-AE13-9F8C-A2904E2FA204</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C6C729C-79FC-A1AB-20A0-AB2316AA2241" referredColumn="59DFA380-FBBA-8C35-4A6B-50F1DFEEE60B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F03C5C35-BFB8-2E6A-7027-EE3BB92B53BC" name="USER_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>7E1A5718-F756-4D6B-702B-F63AC830DC68</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59DFA380-FBBA-8C35-4A6B-50F1DFEEE60B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C43A698-432A-8C7A-05FC-CE87855F0696" name="USER_USER_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>7E01FB57-87EA-E734-2D5B-3924DE8C79FB</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5C0DC4C-51BF-D239-06AF-71ED2B4CC039"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

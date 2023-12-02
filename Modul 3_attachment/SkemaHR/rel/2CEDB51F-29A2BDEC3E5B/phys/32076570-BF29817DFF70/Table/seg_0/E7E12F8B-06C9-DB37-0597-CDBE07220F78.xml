@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="COUNTRIES" directorySegmentName="seg_0" id="E7E12F8B-06C9-DB37-0597-CDBE07220F78">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="country_name" id="1E334BF3-1AE9-91F9-8F2F-994F62EDD595">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="region_id" id="3A6BB9C1-764D-04D9-2D72-48457BD4CE5C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="country_id" id="BF9D5103-67FA-5B1A-C732-50C2F3CFF648">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGIONS_region_id" id="C9AB7D8D-A437-C50D-10F3-E6197CB32254">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="COUNTRIES_REGIONS_FK" id="CD67F45A-0737-BEE8-1785-62A44000B423">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="COUNTRIES_PK" id="62EDDA40-6565-C7F3-8461-0A64DD17A86A">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

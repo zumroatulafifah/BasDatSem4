@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3C428B3-248D-5A44-C329-F10D6829B130" name="PELANGGAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:23:42 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pelanggan" id="634C5385-D80D-6F8B-A335-464894ED794C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:23:53 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_pelanggan" id="5B2FF685-4C75-3FA7-71F0-86BFE396A65F">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:24:33 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_telp" id="29AFDA80-9A28-12F2-7A50-F98F3CB04291">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:24:55 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alamat_pelanggan" id="799CD5E6-9EB9-9BED-BF77-678AFB294695">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:26:46 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B95EDE3-D4BD-36EB-F4FF-B1147574D797" name="PELANGGAN PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:24:30 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>634C5385-D80D-6F8B-A335-464894ED794C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

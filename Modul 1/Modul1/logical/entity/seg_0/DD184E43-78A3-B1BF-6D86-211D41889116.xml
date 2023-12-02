@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD184E43-78A3-B1BF-6D86-211D41889116" name="SUPPLIER">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 08:51:40 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID SUPPLIER" id="71C7A157-06D5-AE2C-1974-7E93229D7B0C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 08:52:51 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAMA" id="5E7BC99A-C1BE-FC79-FF58-86EB0A9D6E29">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 08:53:11 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALAMAT" id="D3A07C84-20D4-01C6-BDD3-C5391C564791">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 08:53:33 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELP" id="06DB76A6-BBBD-5145-EFA0-98B3FA95E33A">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 08:53:52 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D76F0764-F9B2-DD99-C6C4-CC5AB3690DB6" name="SUPPLIER PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 08:53:09 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71C7A157-06D5-AE2C-1974-7E93229D7B0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

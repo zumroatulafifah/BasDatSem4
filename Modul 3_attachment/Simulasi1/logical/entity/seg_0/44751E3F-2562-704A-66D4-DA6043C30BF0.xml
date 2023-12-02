@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44751E3F-2562-704A-66D4-DA6043C30BF0" name="PEGAWAI">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8B8F1514-554C-F9B3-334D-9A0ACAC221FA">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<importedID>41DFEC82-A50E-023A-57D7-E15054E36FE1</importedID>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_pegawai" id="811C3AF6-6B64-3F5A-FA27-1A7FBCB40F1F">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<importedID>BEF2B650-5E1F-8060-0397-45667B0698F2</importedID>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department" id="8E0D0E08-806D-FA08-2102-AC2BC771C187">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-02 15:33:41 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pelanggan_id1" id="030A5EBA-0F68-3814-C485-0D4755C8A965">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:33:59 UTC</createdTime>
+<generatorID>EEA712C7-8184-B1F3-994F-5849F8CB6EAE</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2114A7A3-62FD-FFE7-4B66-25A20E3E25E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pelanggan_id" id="A9FD5389-A982-FF9D-2018-C66F877CC6C9">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:41:46 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B657E54-0462-3016-C467-BAE16EF44E2B" name="PEGAWAI PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B8F1514-554C-F9B3-334D-9A0ACAC221FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

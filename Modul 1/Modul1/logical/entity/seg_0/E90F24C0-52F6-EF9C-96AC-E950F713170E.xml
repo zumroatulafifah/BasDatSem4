@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E90F24C0-52F6-EF9C-96AC-E950F713170E" name="USER">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 15:05:58 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID USER" id="5E66B0C7-B7EF-E64A-9F05-508378383043">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 00:33:25 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAMA USER" id="904BC934-7F9F-9044-6312-9013D6D3504E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 00:33:42 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID USER1" id="2E00DFEE-00B7-AE13-9F8C-A2904E2FA204">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 12:32:16 UTC</createdTime>
+<generatorID>7E01FB57-87EA-E734-2D5B-3924DE8C79FB</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5E66B0C7-B7EF-E64A-9F05-508378383043</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E1A5718-F756-4D6B-702B-F63AC830DC68" name="USER PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 00:33:38 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E66B0C7-B7EF-E64A-9F05-508378383043</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

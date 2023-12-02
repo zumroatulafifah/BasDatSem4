@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TERKAITv3" directorySegmentName="seg_0" id="AF998385-604A-7B70-A40E-175446BC544D">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<sourcePk>39F30227-66B5-6A1F-8CB4-26413B7552F9</sourcePk>
+<targetPk>405B9FAA-013D-6DF7-1F38-FA93B501356A</targetPk>
+<identifying>false</identifying>
+<nameOnSource>terkait</nameOnSource>
+<nameOnTarget>terkait</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>705A11C9-39A5-4CD4-4A23-1738E2A96B57</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8299FA8B-A32E-52FF-2B84-F9FFE6054630</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

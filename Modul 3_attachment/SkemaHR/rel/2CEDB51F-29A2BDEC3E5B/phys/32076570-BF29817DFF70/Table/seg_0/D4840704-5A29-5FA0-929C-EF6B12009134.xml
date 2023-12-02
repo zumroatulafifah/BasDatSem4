@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="JOB_HISTORY" directorySegmentName="seg_0" id="D4840704-5A29-5FA0-929C-EF6B12009134">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="departement_id" id="603B2117-6204-26A7-1FBB-6627712E9B3D">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="end_date" id="6BA4830C-F520-8668-4B11-402C83EFE5A0">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="employee_id" id="7B6E492E-4E49-A682-4205-37864ED07899">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTEMENTS_departement_id" id="923AEDEB-E281-3978-7821-1612546F5548">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOBS_job_id" id="9CBCC2C1-669F-0AA3-5D4F-F687C83A14F4">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="job_id" id="AC52DDFB-DFC9-6C31-3E5B-464159E5B8FE">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLOYEES_employee_id" id="BD7C3E73-12F1-765F-E3B3-BCD046AD861D">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="start_date" id="E2631560-A16F-75D9-3852-7E82086E21A2">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="JOB_HISTORY_DEPARTEMENTS_FK" id="12C3B954-1FDF-D89C-71CE-9361DDE57843">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="JOB_HISTORY_EMPLOYEES_FK" id="98AA35D6-4880-2011-3833-F0E784F24C56">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="JOB_HISTORY_JOBS_FK" id="9DEF04F6-407B-4C9B-6BE7-0E6916282D8E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="JOB_HISTORY_PK" id="75903036-2D92-69AB-CAD0-14BF0358B887">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

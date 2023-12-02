@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="JOBS" directorySegmentName="seg_0" id="1A659C00-11F5-66E9-909C-F489A2E855F2">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="max_salary" id="059D8146-E491-D0A3-B0A8-DCD34F264084">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="min_salary" id="347A8240-9931-206F-4C3E-1E32CD6D7ADF">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="job_title" id="3ABF7B74-6DA3-F5C9-1D3F-137B6F956419">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="job_id" id="4DF19E2B-B0F6-41C8-C825-EE69D3CC255A">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="JOBS_PK" id="0278C191-C413-4C3B-2169-645C5A2845E7">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MENYEDIAKAN" directorySegmentName="seg_0" id="F143311E-CF97-8EC0-D0F5-E4CD450ECF35">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 13:29:52 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<sourcePk>ED351F6A-845B-2CEB-1517-0EB27274EBB7</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>menyediakan</nameOnSource>
+<nameOnTarget>disediakan</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>108552B0-A0F5-0F98-2C68-0FD4CF983D3D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>420F1032-2629-4C22-D156-514AF32A860F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

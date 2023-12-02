@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SkemaHR" id="86036951-EF56-8FDA-1FE9-F920634005B2" version="3.5">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 07:01:14 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>86036951-EF56-8FDA-1FE9-F920634005B2</designId>
+</OSDM_Design>

@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="26E8C176-952E-1F29-B1F9-E9D90ED7723A" name="PENGIRIMAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:19:37 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NOMOR PENGIRIMAN" id="D05AD0AA-C2F4-0785-FC10-C51BF7D9B1EF">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:19:45 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TANGGAL PENGIRIMAN" id="DDE468FA-C608-A40C-D428-A165CDE59F0E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:20:00 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAMA PENERIMA" id="D8F97DDB-E2D9-FCF7-84D6-160EFA94994C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:20:17 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELP PENERIMA" id="D78E3D73-D21E-7DDE-CFC8-4D129BFCA936">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:20:31 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ALAMAT PENERIMA" id="FF2D341C-C1BC-A789-71A2-BAE102D6538B">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:20:50 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STATUS PENGIRIMAN" id="F81BCE6B-247B-8811-09E8-AA51F52EFC65">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:22:15 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KETERANGAN" id="2FDD4CFF-0F50-6D25-A908-214A441817C7">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:22:37 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMOR PEMESANAN" id="BA0B4ED5-D79E-1C40-6E16-1DEBEDC610D1">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 15:04:20 UTC</createdTime>
+<generatorID>7EBE8AC0-2A18-1F78-0C59-2CD176070602</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<referedAttribute>A442698E-96B3-D72D-D69F-9FD9043D7591</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE552BC6-B307-FFBD-2B67-0CD5B256550E" name="PENGIRIMAN PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:19:57 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D05AD0AA-C2F4-0785-FC10-C51BF7D9B1EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

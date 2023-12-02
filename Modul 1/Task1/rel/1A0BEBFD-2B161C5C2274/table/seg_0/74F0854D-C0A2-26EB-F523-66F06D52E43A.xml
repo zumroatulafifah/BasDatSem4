@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74F0854D-C0A2-26EB-F523-66F06D52E43A" name="BEAUTY_ADVISOR">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>D8FD2BB8-DA4F-F486-D3E5-985FA5CACE71</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1ADFA837-D554-B642-F7CD-C5BAEEFDCCBD">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>E498353E-04FB-0817-5535-FE6106BC11B8</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24419DD7-6C32-508A-FEBA-AA16706951F2" referredColumn="954E6AFE-4856-459C-C7EA-78FDB8E80B35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15D57337-E8E9-6A43-CDFE-64D2E5461ECE" name="BEAUTY_ADVISOR_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>5A3B650B-C450-90B8-E003-61F4AF22BF55</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ADFA837-D554-B642-F7CD-C5BAEEFDCCBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AD5EB08-1F70-ACFB-485A-CE8B657E8B44" name="BEAUTY_ADVISOR_PEGAWAI_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>22799E80-EB9A-1E9C-8E51-8BED4EFC2F43</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ADFA837-D554-B642-F7CD-C5BAEEFDCCBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

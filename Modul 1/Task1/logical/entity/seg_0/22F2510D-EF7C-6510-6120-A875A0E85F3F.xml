@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22F2510D-EF7C-6510-6120-A875A0E85F3F" name="PESANAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:08:35 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NOMOR PESANAN" id="8353484C-4755-2958-8A01-CA663B49AFA2">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:09:14 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TANGGAL PESANAN" id="537ED072-6DDC-9620-92B2-2E0D954230EB">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:10:08 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL PESANAN" id="391CBD8A-DE5B-8174-1CE3-A3B4AF7380B3">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:11:12 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="81FAE696-155B-0F82-E36D-AB0391F3DD91" name="PESANAN PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:09:51 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8353484C-4755-2958-8A01-CA663B49AFA2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

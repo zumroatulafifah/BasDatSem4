@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E86ABB40-9DB0-E3FD-FAA2-347D01F9E567" name="AUDITOR">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>815267D1-EFC1-586B-3FD5-16C8C3183B61</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6286506D-82C8-95B0-4C22-FB20105BA8EB">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>E498353E-04FB-0817-5535-FE6106BC11B8</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4D2010D-F4B8-7213-5726-443988377EA9" referredColumn="954E6AFE-4856-459C-C7EA-78FDB8E80B35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="578B3F0A-80C7-0D4D-61BA-931A35475DE6" name="AUDITOR_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>5A3B650B-C450-90B8-E003-61F4AF22BF55</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6286506D-82C8-95B0-4C22-FB20105BA8EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="642EA07F-81CB-4DB6-CAED-24DDE8343528" name="AUDITOR_PEGAWAI_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>9C383B2A-D4DE-4D0A-F872-C58A8DF036D4</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6286506D-82C8-95B0-4C22-FB20105BA8EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

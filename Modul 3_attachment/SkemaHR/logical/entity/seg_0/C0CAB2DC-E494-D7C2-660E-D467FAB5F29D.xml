@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0CAB2DC-E494-D7C2-660E-D467FAB5F29D" name="DEPARTEMENTS">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 07:11:13 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<engineerTo>
+<item key="2CEDB51F-3AC2-36C7-8BE7-29A2BDEC3E5B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="departement_id" id="928F9949-B1B7-4B42-7769-7F76EBC8C9BA">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 07:11:53 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<engineerTo>
+<item key="2CEDB51F-3AC2-36C7-8BE7-29A2BDEC3E5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departement_name" id="65CD1AB9-98A7-1D6F-0371-4BC1C396DABE">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 07:12:21 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<engineerTo>
+<item key="2CEDB51F-3AC2-36C7-8BE7-29A2BDEC3E5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manager_id" id="3671A4FB-6013-1451-E68D-51132199F938">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 07:12:42 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<engineerTo>
+<item key="2CEDB51F-3AC2-36C7-8BE7-29A2BDEC3E5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_id" id="DD379121-6757-93C1-BED3-F9E124A5F638">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 07:12:58 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<engineerTo>
+<item key="2CEDB51F-3AC2-36C7-8BE7-29A2BDEC3E5B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="location_id1" id="3DBEFDC6-E6C0-762E-016A-0C8D18E12CF6">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 07:22:44 UTC</createdTime>
+<generatorID>AA48599B-7EC8-BEFB-E05E-58E2DACC7B35</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<engineerTo>
+<item key="2CEDB51F-3AC2-36C7-8BE7-29A2BDEC3E5B" value="true"/>
+</engineerTo>
+<referedAttribute>F6D2BD8A-F249-7A9B-E22E-48F3505E4AE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B75D5CC-1946-9BA7-21C3-86E774CC76B3" name="DEPARTEMENTS PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 07:12:17 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<engineerTo>
+<item key="2CEDB51F-3AC2-36C7-8BE7-29A2BDEC3E5B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>928F9949-B1B7-4B42-7769-7F76EBC8C9BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

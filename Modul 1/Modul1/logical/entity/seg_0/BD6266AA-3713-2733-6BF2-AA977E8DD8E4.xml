@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD6266AA-3713-2733-6BF2-AA977E8DD8E4" name="BARANG">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 12:44:43 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KODE BARANG" id="97E0702A-3FA9-DD84-A759-19B991DE573B">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 12:44:57 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAMA BARANG" id="D26CB1FE-F5BC-1C33-A361-1FA3C4083030">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 12:45:18 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="UKURAN" id="BEFEBA3B-D803-2DD7-7C1F-462830348AF7">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 12:45:46 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HARGA BELI" id="82207D2B-215F-6ED6-3D29-5446AA19EF62">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 12:46:12 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HARGA JUAL" id="2BAE6384-F46C-C595-FE84-142ECC80769D">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 12:46:30 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WARNA" id="15C2D3D1-AEF7-122B-3E97-8BE1D3D75804">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 12:46:48 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QTY" id="685EE99E-1D3B-A05E-1E8E-DD541D2C30CD">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 12:47:15 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID KATEGORI" id="B20C4BBC-3AE0-2490-5FF3-99E48D1F9AC3">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 13:02:39 UTC</createdTime>
+<generatorID>3A9D4654-25D8-E4E4-5D09-0B1B82ACB699</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<referedAttribute>0400F5F4-F08E-5E47-3FC2-33B29FEBDF20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID SUPPLIER" id="B3C642C5-529F-8F2C-F5AE-834AE2B905B2">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 08:55:50 UTC</createdTime>
+<generatorID>1089269B-7ACF-739B-035D-90B7EDC71654</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<referedAttribute>71C7A157-06D5-AE2C-1974-7E93229D7B0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMOR PEMESANAN" id="A3803FB1-D928-54DA-DD67-345FF6FDF828">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 16:08:04 UTC</createdTime>
+<generatorID>F765DB39-1B4D-2C94-3CDC-C8516FA7F313</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<referedAttribute>A442698E-96B3-D72D-D69F-9FD9043D7591</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelanggan" id="D6C2FD6B-2316-0E03-6F21-F11CD5002111">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 16:26:38 UTC</createdTime>
+<generatorID>0FB17542-FF68-A551-5E8D-64355B274F07</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<referedAttribute>634C5385-D80D-6F8B-A335-464894ED794C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KODE BARANG1" id="FA34C508-9DD3-2A00-A91E-347000ABE2B5">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-16 00:28:51 UTC</createdTime>
+<generatorID>A2AEF015-6629-4F81-8512-D24E50E105A0</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<referedAttribute>AB75AB09-93A6-5BC5-62C0-A60661C01B13</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="048D52BF-6E34-049F-6F07-DDB7D42B0FFE" name="BARANG PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 12:45:13 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97E0702A-3FA9-DD84-A759-19B991DE573B</attributeRef>
+<attributeRef>B20C4BBC-3AE0-2490-5FF3-99E48D1F9AC3</attributeRef>
+<attributeRef>B3C642C5-529F-8F2C-F5AE-834AE2B905B2</attributeRef>
+<attributeRef>A3803FB1-D928-54DA-DD67-345FF6FDF828</attributeRef>
+<attributeRef>D6C2FD6B-2316-0E03-6F21-F11CD5002111</attributeRef>
+<attributeRef>FA34C508-9DD3-2A00-A91E-347000ABE2B5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

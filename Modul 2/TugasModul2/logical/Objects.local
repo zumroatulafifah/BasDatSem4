@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="0A224F38-DE8F-AA96-1808-A3D87B02F176" name="KARTU PENGOBATAN MASYARAKAT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="77F21CAF-54F7-5C94-CD09-9FAB8CE59072" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="1107B883-2406-DA09-8304-D3C9C06F2653" name="OBAT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="77F21CAF-54F7-5C94-CD09-9FAB8CE59072" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="66B4C09F-26A8-72BA-C8CD-00C28C95C522" name="ALAMAT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="77F21CAF-54F7-5C94-CD09-9FAB8CE59072" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="78CF73D4-EFCA-22D9-C56F-78C797270BD3" name="MENCAKUP" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="77F21CAF-54F7-5C94-CD09-9FAB8CE59072" propertySourceId="0A224F38-DE8F-AA96-1808-A3D87B02F176" propertyTargetId="1107B883-2406-DA09-8304-D3C9C06F2653"/>
+   <object objectType="Relation" objectID="F54D1822-B0AA-4296-59F2-7BA062987BB9" name="HANYA TERKAIT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="77F21CAF-54F7-5C94-CD09-9FAB8CE59072" propertySourceId="66B4C09F-26A8-72BA-C8CD-00C28C95C522" propertyTargetId="0A224F38-DE8F-AA96-1808-A3D87B02F176"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

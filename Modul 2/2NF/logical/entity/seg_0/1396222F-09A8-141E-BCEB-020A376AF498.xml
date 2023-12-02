@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1396222F-09A8-141E-BCEB-020A376AF498" name="PASIEN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:13:07 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No Pasien" id="96F67636-1EA6-2149-7FA2-5F62176700BA">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:17:30 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No Penduduk" id="483A12D7-9B97-7E48-A2FB-7987A81E3ADA">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:17:51 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama Pasien" id="6C017B91-6894-1468-1B5E-BE6EFCC58EE5">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:18:28 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telepon" id="BAF48939-5249-7A92-FE31-7CEB6F9CDF61">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:19:07 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kode Pos" id="0111917E-F489-C531-BCE0-DA2C9568ABE8">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 07:03:34 UTC</createdTime>
+<generatorID>A5D913B2-6058-4196-E2D0-C7E9CA3A331F</generatorID>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<referedAttribute>5CA1F209-4043-9732-299F-587908041D96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07AB2B22-970E-8681-EE15-079588DF853E" name="PASIEN PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:17:48 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96F67636-1EA6-2149-7FA2-5F62176700BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

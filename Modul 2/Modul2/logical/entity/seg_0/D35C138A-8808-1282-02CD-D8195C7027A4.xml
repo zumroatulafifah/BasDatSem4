@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D35C138A-8808-1282-02CD-D8195C7027A4" name="BANK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:17:32 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomor_rekening" id="950F6AF5-C7DA-124E-AE61-E7C9CAF406E0">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:21:01 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_pemilik_rekening" id="62754144-1DC9-D1CA-DA8E-BD0D3CF68403">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:21:18 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomor_antrian_pesanan" id="033E5B14-C58E-4DB3-7829-E372C08CC2F1">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:34 UTC</createdTime>
+<generatorID>59941642-BD2D-04B4-7E7A-CC66EB85CA71</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>F1A62840-F20D-D550-5028-C77092EAB219</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode" id="97E77E0E-750C-2113-9D2A-9B13F185F681">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:34 UTC</createdTime>
+<generatorID>59941642-BD2D-04B4-7E7A-CC66EB85CA71</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>DB1A74A9-794E-52D6-9AF3-8FD9EA8C3FAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="73C9224D-40BE-BAD2-8D00-FFD4D34BBD36">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:34 UTC</createdTime>
+<generatorID>59941642-BD2D-04B4-7E7A-CC66EB85CA71</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>EFBAA421-3228-EB13-C55E-82493990F5AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="7111BD7E-FFF7-5F02-A5DD-59FAD64C6908">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:34 UTC</createdTime>
+<generatorID>59941642-BD2D-04B4-7E7A-CC66EB85CA71</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>3F0151C4-95C8-8982-6025-7A14DF29C1E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode1" id="786C5B98-B50B-606C-6CB8-9D0FB8155562">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:34 UTC</createdTime>
+<generatorID>59941642-BD2D-04B4-7E7A-CC66EB85CA71</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>385D7527-05B5-629A-D788-0212D8A0929C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="F3253B17-68DB-8B94-BC01-462CE678A17E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:34 UTC</createdTime>
+<generatorID>59941642-BD2D-04B4-7E7A-CC66EB85CA71</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>CE7431A9-C35F-4B63-9A48-00720406C3E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96D3E094-BBB4-CB65-4D52-51B66FE8F20C" name="BANK PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:21:16 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>950F6AF5-C7DA-124E-AE61-E7C9CAF406E0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

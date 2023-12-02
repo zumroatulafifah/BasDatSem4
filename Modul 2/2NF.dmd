@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="2NF" id="5434C9D9-1A2D-53AF-FD26-B1EFEDB87918" version="3.5">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:12:11 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5434C9D9-1A2D-53AF-FD26-B1EFEDB87918</designId>
+</OSDM_Design>

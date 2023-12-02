@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64AFC7A9-E9AD-EA0B-02B0-6CC831444FAB" name="PELANGGAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>FE212DA0-0266-4F3B-9A15-FDCA2EAFFDBF</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4C5AAFD3-D518-F19B-338B-6EF8E5AF8702">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>E4874A3F-93FD-20B0-C67E-5E029EA45E20</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMA_DEPAN" id="7871DE92-FFDC-BD4F-35E4-256568D0770F">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>5971CC04-B882-7E3D-445F-ECB78274F785</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMA_BELAKANG" id="485D80FF-0DAA-83F8-A9BD-A6FA9E77004D">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>4837051E-9AE7-B06F-DE0F-DDFB1F56A709</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALAMAT" id="4E774D13-051D-66E7-432C-AB2AB4DECE3E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>04E52DF5-1715-934D-63CA-1F20910624F8</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KOTA" id="90438CA6-3CF6-6F08-54C3-E9F3F08FF9EF">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>BAD0BFA9-CA08-AF25-9DBA-44E5472345AD</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO_HP" id="CA307D1E-1D29-032C-119C-9F4669D2A189">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>7A6E5149-EE75-C550-F747-9A0AE7D4DC8D</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="483182CC-6732-5268-7006-E3513BB1667B" name="PELANGGAN_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>D37291FA-E473-C8B7-D15E-1754623E408B</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C5AAFD3-D518-F19B-338B-6EF8E5AF8702"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

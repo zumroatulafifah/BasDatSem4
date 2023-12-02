@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="034F05DD-14CB-BCC1-39EE-DFD5D6CD19FA">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-28 03:30:40 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<sourcePk>1EBA7BAE-E2D7-B19B-6702-E0C9CDD86664</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>dilayani</nameOnSource>
+<nameOnTarget>melayani</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0A79A2D0-2B52-DFD7-A7B6-9CAA59BFEDC6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8130095-FBDB-655F-E0BD-0E94F42AC9A7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

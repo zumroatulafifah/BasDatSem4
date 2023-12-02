@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="273A9E72-8CFC-5EBC-EAF5-4B7B9DC27806" name="PESANAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>22F2510D-EF7C-6510-6120-A875A0E85F3F</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMOR_PESANAN" id="42803867-F5DC-8BCB-EB14-FA2992EBE0E3">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>8353484C-4755-2958-8A01-CA663B49AFA2</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TANGGAL_PESANAN" id="53EC2FA2-40E5-B9E5-D687-27305CCC9E9C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>537ED072-6DDC-9620-92B2-2E0D954230EB</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_PESANAN" id="1BBB4537-EA58-80B7-E47F-6CCC51B3FC97">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>391CBD8A-DE5B-8174-1CE3-A3B4AF7380B3</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E61DD3FA-1DAD-C371-A5C9-1DACE35AE313" name="PESANAN_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>81FAE696-155B-0F82-E36D-AB0391F3DD91</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42803867-F5DC-8BCB-EB14-FA2992EBE0E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

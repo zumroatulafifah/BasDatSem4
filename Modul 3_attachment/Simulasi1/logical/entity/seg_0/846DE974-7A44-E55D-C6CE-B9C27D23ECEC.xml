@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="846DE974-7A44-E55D-C6CE-B9C27D23ECEC" name="PENGIRIMAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomor_kirim" id="93201EE0-226B-EA8B-7208-126A69D5ED4C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<importedID>FCF0FAD0-3CEF-800C-05C4-9A4BA2A42FF1</importedID>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_penerima" id="8FB8663C-3801-7F85-DB2B-A15904FD243F">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<importedID>E256D42A-034C-D219-CCE2-A3C7BD7B7CC5</importedID>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telepon_penerima" id="A851E45B-EA96-97E7-E909-C3294E926570">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<importedID>C0D7CF25-20A2-CFDD-7640-86905B266B8A</importedID>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="C38AD1B2-F334-D199-4AFE-920928D97863">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 13:37:19 UTC</createdTime>
+<generatorID>1E780D71-8D50-C78D-078F-DB365C1D612F</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8B8F1514-554C-F9B3-334D-9A0ACAC221FA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_pesanan" id="9878D267-197E-2E69-A1F8-89B18DB552E6">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 13:39:12 UTC</createdTime>
+<generatorID>140F65DF-985C-C3CB-852F-AE47A11E06AC</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B28A21F6-4F15-0B8D-42F2-B4B19619D3AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_kirim" id="41C16B71-16F9-16D2-FD8E-0BFBD567B10C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 13:52:56 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="keterangan_kirim" id="5AB9763C-3798-0999-B9B6-2A7D43D5B804">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 13:53:14 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D12F835-868F-BACD-2489-2F5F086ED605" name="PENGIRIMAN PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93201EE0-226B-EA8B-7208-126A69D5ED4C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

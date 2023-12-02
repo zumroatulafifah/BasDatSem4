@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8130095-FBDB-655F-E0BD-0E94F42AC9A7" name="KASIR">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_kasir" id="D6BC40E5-673C-2751-33A1-7DA005B5CDE7">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<importedID>E4BE7DFC-F4FA-80E2-8744-49F212B31FBA</importedID>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_kasir" id="917A9B02-454C-726A-0059-A76F46E8E4AA">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<importedID>6A03D2B7-4028-F54A-D5BB-BBE359B2BDE2</importedID>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_pelanggan" id="CE6558C4-3488-DE3D-C0BB-F9B4CC7CD6C9">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-28 03:30:40 UTC</createdTime>
+<generatorID>034F05DD-14CB-BCC1-39EE-DFD5D6CD19FA</generatorID>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<referedAttribute>6CE33AE9-B40F-7C28-CB2B-DBAF25DA276E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94EFBD2E-72FF-35CD-4288-90888AC38F63" name="KASIR PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D6BC40E5-673C-2751-33A1-7DA005B5CDE7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4A7969D-B908-3307-9DB3-7EF460BAE034" name="tb_kategori">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 12:54:29 UTC</createdTime>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kategori" id="4C9C33DA-3008-2ABE-C514-164C51C29307">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 12:54:46 UTC</createdTime>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_kategori" id="CBE81E6C-6A9A-84B0-16F2-3BD1C12FBFED">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 12:55:12 UTC</createdTime>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD72D9BC-8E40-F6B7-C900-1AA6C62F2642" name="tb_kategori PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 12:55:01 UTC</createdTime>
+<ownerDesignName>Latihan1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C9C33DA-3008-2ABE-C514-164C51C29307</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

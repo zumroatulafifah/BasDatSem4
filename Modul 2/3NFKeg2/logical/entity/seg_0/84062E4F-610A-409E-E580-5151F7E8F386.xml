@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84062E4F-610A-409E-E580-5151F7E8F386" name="JENIS BARANG">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="kode_jenis" id="B83F0985-BF33-EAB3-781C-1841F5637F1A">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<importedID>03908FC5-1140-CD89-3340-2DF7D81BFE1B</importedID>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis_barang" id="9F44B107-EC3E-B572-3FAC-A4F2150DA25C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<importedID>84D8F312-9601-76BD-0198-AC33870218DF</importedID>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="788A2815-25CA-5BBA-0D13-CF89A94145A5" name="JENIS BARANG PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B83F0985-BF33-EAB3-781C-1841F5637F1A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

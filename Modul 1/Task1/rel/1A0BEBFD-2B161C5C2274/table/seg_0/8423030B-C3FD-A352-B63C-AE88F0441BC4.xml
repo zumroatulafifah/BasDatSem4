@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8423030B-C3FD-A352-B63C-AE88F0441BC4" name="melayani">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<ordsAlias>relation_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PELANGGAN_ID" id="0AAD2ADE-4CD0-6745-3010-A2B092C92A8E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D9A0826-4AB8-8FE9-F947-E9679F6C5D50" referredColumn="4C5AAFD3-D518-F19B-338B-6EF8E5AF8702"/>
+</associations>
+</Column>
+<Column name="PEGAWAI_ID" id="2B5CABD3-44D0-5DB9-7C37-B5B0BA8487D3">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EF06884-0B95-E43A-E9E1-E1713B6C7ABA" referredColumn="954E6AFE-4856-459C-C7EA-78FDB8E80B35"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0C20FD5-1EFA-EBC7-22B9-2F9D9039CBF3" name="Relation_13_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AAD2ADE-4CD0-6745-3010-A2B092C92A8E"/>
+<colUsage columnID="2B5CABD3-44D0-5DB9-7C37-B5B0BA8487D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7EA40AE-671E-B1E2-1F70-50DE29FD4690" name="Relation_13_PELANGGAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>763BA5C1-8F78-D923-5A54-7E32C381EE49</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AAD2ADE-4CD0-6745-3010-A2B092C92A8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A97CD8A-4E7D-A408-16A4-0511816EF0C9" name="Relation_13_PEGAWAI_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>763BA5C1-8F78-D923-5A54-7E32C381EE49</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B5CABD3-44D0-5DB9-7C37-B5B0BA8487D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

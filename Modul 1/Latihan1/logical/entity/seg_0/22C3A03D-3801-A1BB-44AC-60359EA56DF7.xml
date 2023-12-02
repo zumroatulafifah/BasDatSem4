@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22C3A03D-3801-A1BB-44AC-60359EA56DF7" name="tb_buku">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 12:32:40 UTC</createdTime>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_buku" id="AAF50A6D-4E0E-780D-D04E-E078C54C3A2B">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 12:37:34 UTC</createdTime>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_buku" id="7D50EA6F-A9AF-0722-EAB2-279D9CF2E28F">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 12:39:30 UTC</createdTime>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stok" id="18D92E45-D2A2-280A-E9BB-1F7B681F9D20">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 12:42:14 UTC</createdTime>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_detail" id="1B4EA8CA-1CF5-E191-08BD-93B3C7B1A655">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 12:46:11 UTC</createdTime>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kategori" id="7EA9C2BB-7BD1-84FB-C4E9-574583A2BD1A">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 12:46:33 UTC</createdTime>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_detail1" id="A8C60FA2-DC47-3DE9-9E4B-63362485A09B">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 13:02:50 UTC</createdTime>
+<generatorID>9427A764-F3AB-CBB6-6F8B-B0E93BF283C6</generatorID>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<referedAttribute>A499D09E-E8B4-6E2B-71A0-9DD0564822F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kategori1" id="BC05C6CA-FCDF-0682-EAD9-B79A3AD517DD">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 13:21:14 UTC</createdTime>
+<generatorID>A95EFD3E-CBE6-5BFA-EC06-98702B122567</generatorID>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<referedAttribute>4C9C33DA-3008-2ABE-C514-164C51C29307</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D94329E1-B05D-FF02-B291-7DC90FCDA172" name="tb_buku PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 12:38:55 UTC</createdTime>
+<ownerDesignName>Latihan1</ownerDesignName>
+<engineerTo>
+<item key="570CC074-26D1-B116-CAC0-7703BE5D0C33" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AAF50A6D-4E0E-780D-D04E-E078C54C3A2B</attributeRef>
+<attributeRef>A8C60FA2-DC47-3DE9-9E4B-63362485A09B</attributeRef>
+<attributeRef>BC05C6CA-FCDF-0682-EAD9-B79A3AD517DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

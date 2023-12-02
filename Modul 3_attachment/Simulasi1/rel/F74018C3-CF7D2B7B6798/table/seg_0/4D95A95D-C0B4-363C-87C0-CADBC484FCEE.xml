@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D95A95D-C0B4-363C-87C0-CADBC484FCEE" name="PEGAWAI">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>44751E3F-2562-704A-66D4-DA6043C30BF0</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3F9B33A6-58ED-931E-8D2E-DDC3C649F264">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>8B8F1514-554C-F9B3-334D-9A0ACAC221FA</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_pegawai" id="7D20A22C-DF39-3BFA-BD02-7EDA960BA58E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>811C3AF6-6B64-3F5A-FA27-1A7FBCB40F1F</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="department" id="7F8254C1-74D3-3121-8331-E0F547A7A4B9">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>8E0D0E08-806D-FA08-2102-AC2BC771C187</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PELANGGAN_pelanggan_id" id="158BF5C4-9F5D-E05C-11FA-90C5623E063E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>030A5EBA-0F68-3814-C485-0D4755C8A965</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="455AA79E-8C48-CE57-D247-DB1DF08705F6" referredColumn="84844EC2-2C8C-1D53-816E-9F974E34294A"/>
+</associations>
+</Column>
+<Column name="pelanggan_id" id="88907B30-CCAA-5585-3C0E-8089C20FBB17">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>A9FD5389-A982-FF9D-2018-C66F877CC6C9</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56AC31D1-65CF-D89E-9374-B3E84B0A4AE2" name="PEGAWAI_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>4B657E54-0462-3016-C467-BAE16EF44E2B</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F9B33A6-58ED-931E-8D2E-DDC3C649F264"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18551F16-E0EA-D8CE-38D0-AE92B51492CD" name="PEGAWAI_PELANGGAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>EEA712C7-8184-B1F3-994F-5849F8CB6EAE</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="158BF5C4-9F5D-E05C-11FA-90C5623E063E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

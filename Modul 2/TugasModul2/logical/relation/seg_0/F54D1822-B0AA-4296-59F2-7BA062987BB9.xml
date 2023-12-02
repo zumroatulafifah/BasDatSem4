@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="HANYA TERKAIT" directorySegmentName="seg_0" id="F54D1822-B0AA-4296-59F2-7BA062987BB9">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 05:19:55 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<sourcePk>7A46F027-B697-BB43-3E8D-22AF29D061C6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>66B4C09F-26A8-72BA-C8CD-00C28C95C522</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0A224F38-DE8F-AA96-1808-A3D87B02F176</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

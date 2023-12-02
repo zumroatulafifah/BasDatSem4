@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="DE60297B-6ABB-FC92-A220-FDC920DE92BA">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<modifiedBy>Zumro&apos;atul Afifah</modifiedBy>
+<createdTime>2023-03-24 04:04:30 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0A224F38-DE8F-AA96-1808-A3D87B02F176" otype="Entity" vid="721F1386-BCF0-4266-CCAC-EC6279CC39A0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="46" y="42" width="222" height="183"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1107B883-2406-DA09-8304-D3C9C06F2653" otype="Entity" vid="8BBD52F1-7EBE-EBD9-49F0-7B3888F4062B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="457" y="42" width="117" height="89"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="66B4C09F-26A8-72BA-C8CD-00C28C95C522" otype="Entity" vid="AA4351C9-CAFD-8C37-344A-F76ED894BC0C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="459" y="148" width="116" height="98"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="78CF73D4-EFCA-22D9-C56F-78C797270BD3" otype="Relation" vid_source="721F1386-BCF0-4266-CCAC-EC6279CC39A0" vid_target="8BBD52F1-7EBE-EBD9-49F0-7B3888F4062B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="268" y="86"/>
+<point x="457" y="86"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="F54D1822-B0AA-4296-59F2-7BA062987BB9" otype="Relation" vid_source="AA4351C9-CAFD-8C37-344A-F76ED894BC0C" vid_target="721F1386-BCF0-4266-CCAC-EC6279CC39A0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="459" y="201"/>
+<point x="268" y="201"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

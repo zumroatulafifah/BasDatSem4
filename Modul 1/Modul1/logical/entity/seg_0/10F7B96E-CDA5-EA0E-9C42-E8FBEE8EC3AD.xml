@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10F7B96E-CDA5-EA0E-9C42-E8FBEE8EC3AD" name="KREDIT">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:28:03 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID PEMBAYARAN KREDIT" id="040EBBA5-541B-7FA1-E6A9-DD552C81BFCB">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:28:12 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TANGGAL PEMBAYARAN KREDIT" id="616AAC6B-5F88-6D57-EDFE-3C66B866965E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:28:36 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIBAYAR" id="3BC6EB8E-24D2-C637-FB31-6DCD3A4930E6">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:28:59 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SISA HUTANG" id="2081598D-C16A-E030-8EC4-CADAD6159932">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:29:21 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LAMA HUTANG" id="04897EA0-8DED-2589-1B6A-E7A1AC61E0F5">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:29:40 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL HUTANG" id="86581F30-BE4B-33CC-F047-F571991EBD2D">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:30:51 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CICILAN KE" id="DEB9CF81-0AB5-14FA-9FE6-602D236D4F11">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:31:14 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TGL JATUH TEMPO" id="35386F1F-8CCD-588A-FF1F-01227E0EC3ED">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:31:57 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0E009F6D-5C03-8404-50D5-571D877131D3" name="KREDIT PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 14:28:33 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>040EBBA5-541B-7FA1-E6A9-DD552C81BFCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

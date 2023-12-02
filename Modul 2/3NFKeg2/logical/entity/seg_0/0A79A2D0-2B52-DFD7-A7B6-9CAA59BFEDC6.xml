@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A79A2D0-2B52-DFD7-A7B6-9CAA59BFEDC6" name="PELANGGAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_pelanggan" id="6CE33AE9-B40F-7C28-CB2B-DBAF25DA276E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<importedID>F2CBA68C-AD30-57AB-CAF4-D2AA4373D168</importedID>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_pelanggan" id="51AEDB94-739B-EAB2-D0BF-FD02A5B8AF92">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<importedID>84AEA71F-E1E9-24C4-558B-1812F004F48E</importedID>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telepon" id="EE890B49-3F35-EB1B-1D29-ACF490A754EC">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<importedID>EFC70470-F145-E457-6E01-E79CE5D2F042</importedID>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jaminan" id="95283141-51AB-6783-DDA3-AAB3CF6343D1">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<importedID>44BC11E7-629E-6701-CCBC-D61F8186A30C</importedID>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_rumah" id="84E128E9-AAC5-EC61-0190-D6BECF8C8D99">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<generatorID>8A1E81DD-B338-7D60-3CAF-5D24D2879FAF</generatorID>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<importedID>D8CB5E45-7B91-3A26-F344-F0C301530D83</importedID>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<referedAttribute>A061442E-58FF-89D3-348A-4C6D26FEC89F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EBA7BAE-E2D7-B19B-6702-E0C9CDD86664" name="PELANGGAN PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 22:21:37 UTC</createdTime>
+<ownerDesignName>3NFKeg2</ownerDesignName>
+<engineerTo>
+<item key="3F4659C0-B19B-5DC1-875E-77B77ECA9429" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CE33AE9-B40F-7C28-CB2B-DBAF25DA276E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

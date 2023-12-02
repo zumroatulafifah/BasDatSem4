@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B38FC5E3-CE95-B45D-AC19-A360957B3617" containerWithKeyObject="5DBDECBC-A924-DF53-F4D5-ED75D910830B" localFKIndex="236B4FD6-887B-A25F-5994-4D2A4972A2F0" name="JENIS_SKINCARE_PESANAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>2D3EC7E9-FE80-5D58-E507-B93F351785C1</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<referredTableLongName>PESANAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>273A9E72-8CFC-5EBC-EAF5-4B7B9DC27806</referredTableID>
+<keyObject>E61DD3FA-1DAD-C371-A5C9-1DACE35AE313</keyObject>
+<referredKeyID>E61DD3FA-1DAD-C371-A5C9-1DACE35AE313</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NOMOR_PESANAN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

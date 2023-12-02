@@ -1,0 +1,38 @@
+1.
+select e.first_name ||' '|| e.last_name "NAMA LENGKAP", j.job_title "PEKERJAAN", jh.end_date "END DATE"
+from employees e
+join jobs j on e.job_id = j.job_id
+join job_history jh on e.job_id = jh.job_id
+where jh.end_date < '01/01/2005'
+order by jh.end_date asc
+
+2.
+select e.first_name ||' '|| e.last_name "NAMA", j.depart_name as "DEPARTMENT", c.country_name as "NEGARA"
+from employees e
+join departments j on e.department_id = j.department_id
+join locations i on j.location_id = i.location_id 
+join countries c on i.country_id = c.country_id 
+where c.country_name = 'Canada'
+
+3.
+select e.first_name as "NAMA", e.email, d.depart_name as "DEPARTMENT", j.job_title as "PEKERJAAN" 
+from employees e
+join departments d on e.department_id = d.department_id 
+join jobs j on e.job_id = j.job_id 
+where j.job_title  = 'Accountant'
+
+4.
+select e.email, c.country_name as "NEGARA", r.region_name as "REGIONAL" 
+from employees e
+join departments d on e.department_id = d.department_id
+join locations i on d.location_id = i.location_id 
+join countries c on i.country_id = c.country_id
+join regions r on c.region_id = r.region_id
+where d.department_id = 50
+
+5.
+select e.first_name ||' '|| e.last_name "NAMA LENGKAP", j.job_title as "PEKERJAAN", e.salary as "GAJI KARYAWAN" 
+from employees e
+join departments d on e.department_id = d.department_id 
+join jobs j on e.job_id = j.job_id
+where e.salary > 2000

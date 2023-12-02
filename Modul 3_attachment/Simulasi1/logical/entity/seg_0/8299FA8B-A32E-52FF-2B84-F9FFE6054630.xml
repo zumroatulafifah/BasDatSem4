@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8299FA8B-A32E-52FF-2B84-F9FFE6054630" name="PEMBAYARAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_pesanan" id="AA9F5CD9-06B3-78BA-7B51-E66D5F5D754E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<generatorID>AF998385-604A-7B70-A40E-175446BC544D</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<importedID>F1A62840-F20D-D550-5028-C77092EAB219</importedID>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B28A21F6-4F15-0B8D-42F2-B4B19619D3AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pembayaran" id="C44C9377-3FFB-D594-BED8-805DFC62AC17">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 13:13:22 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="868D79A2-EEB8-A6B2-60C5-147239FEDB64">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 13:13:50 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="405B9FAA-013D-6DF7-1F38-FA93B501356A" name="PEMBAYARAN PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:47:18 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C44C9377-3FFB-D594-BED8-805DFC62AC17</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

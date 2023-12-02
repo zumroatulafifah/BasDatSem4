@@ -1,0 +1,342 @@
+create or replace view contoh_view
+(nama_pegawai, department, nama_pelanggan, kota)
+as select
+concat(p.nama_dep, p.nama_bel) as "nama_pegawai",
+p.department as "department",
+pel.nama_pelanggan as "nama_pelanggan",
+pel.city 
+from
+pegawai p,
+pelanggan pel
+where
+p.pelanggan_id = pel.pelanggan_id
+
+
+
+----------
+insert into employee 
+select concat(p.nama_dep, p.nama_bel) as "nama", 
+p.department as "job",
+concat(m.nama_dep, m.nama_bel) as "nama pelanggan",
+pel.city as "kota"
+from pegawai p 
+join pelanggan pel on p.pelanggan_id = pel.pelanggan_id
+join pegawai m on p.pelanggan_id = m.pelanggan_id
+
+
+-----
+update pegawai
+set nama_dep = 'roni'
+where pelanggan_id in(
+select pelanggan_id
+from pegawai
+where pelanggan_id = 1001)
+
+
+-------
+select * from pegawai
+select * from pelanggan
+select * from bayar
+select * from employee
+drop table bayar
+drop table employee
+
+create table employee
+(nama varchar2(100),
+job varchar2(100),
+nama_pelanggan varchar2(100),
+kota varchar2(100))
+
+insert into employee 
+select concat(p.nama_dep, p.nama_bel) as "nama", 
+p.department as "job",
+concat(m.nama_dep, m.nama_bel) as "nama pelanggan",
+pel.city as "kota"
+from pegawai p 
+join pelanggan pel on p.pelanggan_id = pel.pelanggan_id
+join pegawai m on p.pelanggan_id = m.pelanggan_id
+
+select * from employee
+drop table employee
+select * from bayar
+drop table bayar
+describe bayar
+
+insert into bayar
+select * from pembayaran
+where no_pesanan in (
+select no_pesanan
+from pembayaran)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select * from bayar
+
+insert into bayar
+select * from pembayaran
+where no_pesanan in (
+select no_pesanan
+from pembayaran
+where no_pesanan =2)
+
+update bayar
+set total = total + 5000
+where total in (
+select total
+from bayar
+where nomor = 2)
+
+
+delete from bayar
+where nomor in (
+select nomor
+from bayar
+where nomor = 2)
+
+
+select * from bayar
+
+insert into bayar
+select * from pembayaran
+where no_pesanan in (
+select no_pesanan
+from pembayaran
+where no_pesanan = 3)
+
+update bayar
+set total = total + 10000
+where nomor in (
+select nomor
+from bayar
+where nomor = 3)
+
+delete from bayar
+where nomor in(
+select nomor
+from bayar 
+where nomor = 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+update bayar
+set total = total + 4000
+where total in (
+select total 
+from bayar)
+
+insert into bayar
+select * from pembayaran
+where no_pesanan in (
+select no_pesanan
+from pembayaran
+where no_pesanan = 3)
+
+insert into bayar
+select * from pembayaran
+where no_pesanan in (
+select no_pesanan
+from pembayaran
+where no_pesanan = 4)
+
+
+
+
+
+
+
+
+
+select concat(concat(e.nama_dep, ' '), e.nama_bel) as "nama",
+e.department as "job",
+pel.nama_pelanggan as "nama pel"
+from pegawai e join pelanggan pel on e.pelanggan_id = pel.pelanggan_id
+
+select concat(p.nama_dep, p.nama_bel) as "name",
+p.department,
+pel.city
+from pegawai p join pelanggan pel on p.pelanggan_id = pel.pelanggan_id
+
+
+
+
+
+
+
+
+
+select * from pembayaran
+select * from pengiriman
+
+create table bayar 
+(nomor integer,
+id integer,
+total integer)
+
+select * from bayar
+
+drop table bayar
+
+insert into bayar 
+select * from pembayaran
+where no_pesanan in (
+select no_pesanan 
+from pembayaran
+where no_pesanan =2)
+
+select * from pelanggan
+select * from pegawai
+
+create or replace view contoh_view
+(nama_pegawai, department, nama_pelanggan, kota)
+as select
+concat(p.nama_dep, p.nama_bel) as "nama_pegawai",
+p.department as "department",
+pel.nama_pelanggan as "nama_pelanggan",
+pel.city 
+from
+pegawai p,
+pelanggan pel
+where
+p.pelanggan_id = pel.pelanggan_id
+
+
+alter view contoh_view as
+select nama_pegawai, department, nama_pelanggan, kota, harga from pegawai
+
+
+select * from contoh_view
+
+drop view contoh_view
+
+
+select * from pegawai
+select * from pelanggan
+
+create or replace view contoh_view
+(nama_pegawai, department, nama_pelanggan, kota)
+as select
+concat(p.nama_dep, p.nama_bel),
+p.department,
+concat(m.nama_dep, m.nama_bel),
+pel.city
+from pegawai p,
+pegawai m,
+pelanggan pel
+where
+p.pelanggan_id = m.pelanggan_id and
+p.pelanggan_id = pel.pelanggan_id
+
+select * from contoh_view
+drop view contoh_view
+
+
+create or replace view ini_view
+(nama_pegawai, department, nama_pelanggan, city, nomor_kirim, total_bayar)
+as select
+concat(concat(p.nama_dep, ' '), p.nama_bel),
+p.department,
+pel.nama_pelanggan,
+pel.city,
+peng.nomor_kirim,
+pem.total_bayar
+from
+pegawai p,
+pelanggan pel,
+pengiriman peng,
+pembayaran pem
+where
+p.pelanggan_id = pel.pelanggan_id 
+and peng.no_pesanan = pem.no_pesanan
+
+
+delete from employee
+where kota in (
+select kota
+from employee
+where kota = 'jombang')
+
+
+
+select concat(concat(p.nama_dep, ' '), p.nama_bel) as "nama",
+p.department,
+pel.nama_pelanggan,
+pel.city
+from
+pegawai p inner join pelanggan pel on p.pelanggan_id = pel.pelanggan_id
+
+create table kegiatan_1 (
+nama varchar2 (50),
+tanggal_masuk date,
+gaji number(8,2),
+pekerjaan varchar2(50),
+nama_manager varchar2(50))
+
+describe kegiatan_1
+
+describe departments
+select * from kegiatan_1
+
+insert into kegiatan_1
+select concat(e.first_name, e.last_name) as "nama",
+e.hire_date, 
+e.salary,
+j.job_title,
+concat(m.first_name, m.last_name) as "manager"
+from employees e
+join jobs j on j.job_id = e.job_id
+join employees m on m.job_id = e.job_id
+
+insert into kegiatan
+
+drop table kegiatan_1
+
+select * from kegiatan_1
+
+
+create or replace view kegiatan_3
+(nama, email, pekerjaan, gaji, tanggal_masuk, department)
+as select
+e.first_name,
+e.email,
+j.job_title,
+e.salary,
+e.hire_date,
+d.department_name
+from 
+employees e,
+departments d,
+jobs j
+where
+e.department_id = d.department_id
+and
+j.job_id =  e.job_id
+
+select * from kegiatan_3

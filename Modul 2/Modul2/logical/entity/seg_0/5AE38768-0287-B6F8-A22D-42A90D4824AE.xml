@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5AE38768-0287-B6F8-A22D-42A90D4824AE" name="TUNAI">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:17:26 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_transaksi" id="A9774923-86C6-44BB-EDAB-D0079D4D2DCD">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:17:58 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_transaksi" id="C27CD022-FBA1-5224-705D-AFDD5A9AC6C7">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:18:15 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="34096504-E6EC-A323-ECBA-66A1D5477C7C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:18:42 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kwitansi" id="4E4439FC-865D-FA81-7E5D-D78039E114C8">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:19:23 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomor_antrian_pesanan" id="5FEDEFCD-CC22-9272-7C9D-15D610FA6E10">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:22 UTC</createdTime>
+<generatorID>63B4725F-F947-A3F9-586C-D6527670A4CA</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>F1A62840-F20D-D550-5028-C77092EAB219</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode" id="5C6A82A3-C49A-45F8-EFCF-A45A4A615CE0">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:22 UTC</createdTime>
+<generatorID>63B4725F-F947-A3F9-586C-D6527670A4CA</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>DB1A74A9-794E-52D6-9AF3-8FD9EA8C3FAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="7AF81EC5-953C-8B43-0B0C-D22A9CB36118">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:22 UTC</createdTime>
+<generatorID>63B4725F-F947-A3F9-586C-D6527670A4CA</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>EFBAA421-3228-EB13-C55E-82493990F5AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id11" id="25EA5FAE-15AA-4706-9276-F759E46FD0B8">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:22 UTC</createdTime>
+<generatorID>63B4725F-F947-A3F9-586C-D6527670A4CA</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>3F0151C4-95C8-8982-6025-7A14DF29C1E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode1" id="B33F55EC-ECA7-8D55-AD0C-97BF8CB77B11">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:22 UTC</createdTime>
+<generatorID>63B4725F-F947-A3F9-586C-D6527670A4CA</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>385D7527-05B5-629A-D788-0212D8A0929C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="2F2B60E1-8C7C-1F4D-D979-B32F5A92A025">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:34:22 UTC</createdTime>
+<generatorID>63B4725F-F947-A3F9-586C-D6527670A4CA</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>CE7431A9-C35F-4B63-9A48-00720406C3E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F266F210-78B7-D932-CFF9-2A8518FAC5B5" name="TUNAI PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:18:12 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9774923-86C6-44BB-EDAB-D0079D4D2DCD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

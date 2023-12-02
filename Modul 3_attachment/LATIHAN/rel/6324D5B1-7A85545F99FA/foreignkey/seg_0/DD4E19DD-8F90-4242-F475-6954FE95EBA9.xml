@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD4E19DD-8F90-4242-F475-6954FE95EBA9" containerWithKeyObject="2876005C-5662-2097-4AB2-0488A80FB836" localFKIndex="E004E2DF-1697-8E81-EDF4-BDBE23F20DA5" name="MAHASISWA_JURUSAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>D2C7B80E-927E-BCA4-DBF3-2B08FF18712E</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<referredTableLongName>JURUSAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7D0E6B23-6B5A-28EE-1E49-319E340D0387</referredTableID>
+<keyObject>2DC9665A-08FE-62A4-CA82-C5D87B3F5C0E</keyObject>
+<referredKeyID>2DC9665A-08FE-62A4-CA82-C5D87B3F5C0E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_jurusan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

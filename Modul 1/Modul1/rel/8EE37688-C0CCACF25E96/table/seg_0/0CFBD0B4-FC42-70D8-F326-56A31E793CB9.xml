@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CFBD0B4-FC42-70D8-F326-56A31E793CB9" name="MELAYANI">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID_USER" id="198E25A0-4CDD-13FD-8B6B-81C3847D20A7">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E47E847-C5BC-0F02-CCE9-CC6881958ABF" referredColumn="59DFA380-FBBA-8C35-4A6B-50F1DFEEE60B"/>
+</associations>
+</Column>
+<Column name="PEMESANAN_NOMOR_PEMESANAN" id="7F745602-A243-5383-8ED7-1659758B9B96">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4477AFF-9005-6210-A6AC-56045B9F00DA" referredColumn="61165CA9-BAF4-C6D5-D81F-D1CEB3BD0517"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25CADA83-CF1A-A3B4-C11D-C45AFF83C222" name="MELAYANI_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="198E25A0-4CDD-13FD-8B6B-81C3847D20A7"/>
+<colUsage columnID="7F745602-A243-5383-8ED7-1659758B9B96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="440F4180-61B2-261A-FBFF-68C6989DC230" name="MELAYANI_USER_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>BCAC3661-92B4-2105-9CAC-7BFAE992949F</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="198E25A0-4CDD-13FD-8B6B-81C3847D20A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6711BFCD-7C7A-96B1-110C-289BFFA6318D" name="MELAYANI_PEMESANAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>BCAC3661-92B4-2105-9CAC-7BFAE992949F</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F745602-A243-5383-8ED7-1659758B9B96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

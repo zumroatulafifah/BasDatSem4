@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BB92C8A-3F49-706B-2372-9B5B1788DBAE" name="PENGIRIMAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>846DE974-7A44-E55D-C6CE-B9C27D23ECEC</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomor_kirim" id="70338BA4-5642-22AE-7B00-DF21A3798263">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>93201EE0-226B-EA8B-7208-126A69D5ED4C</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_penerima" id="EC155D88-5C96-0396-D81E-40935A0BA4ED">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>8FB8663C-3801-7F85-DB2B-A15904FD243F</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telepon_penerima" id="89700C02-E807-3D2A-D125-1B6AC0DE7046">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>A851E45B-EA96-97E7-E909-C3294E926570</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEGAWAI_id" id="C2AB5056-35ED-54E0-0110-43C83EE60E3B">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>C38AD1B2-F334-D199-4AFE-920928D97863</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="700A27D4-0251-759A-3DFA-909099FACF88" referredColumn="3F9B33A6-58ED-931E-8D2E-DDC3C649F264"/>
+</associations>
+</Column>
+<Column name="PEMESANAN_no_pesanan" id="E940EA5B-9E06-8168-85C8-469AAB6D3C3A">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>9878D267-197E-2E69-A1F8-89B18DB552E6</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4414DDB-D48B-5B48-B42B-A054444B2486" referredColumn="9D357916-7D3B-5B47-A334-EB0F3B3F8579"/>
+</associations>
+</Column>
+<Column name="tgl_kirim" id="01E7E9DB-7AA2-A5BD-B96E-301817BB8056">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>41C16B71-16F9-16D2-FD8E-0BFBD567B10C</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="keterangan_kirim" id="AB756467-9210-47B7-ECC6-1E35F9CBF8EF">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>5AB9763C-3798-0999-B9B6-2A7D43D5B804</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4729BDC0-ECD5-E54A-39F3-AEA820EAFF3A" name="PENGIRIMAN_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>6D12F835-868F-BACD-2489-2F5F086ED605</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70338BA4-5642-22AE-7B00-DF21A3798263"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3E3BC85-8A1F-A3A3-C7B7-53E40A6E1D62" name="PENGIRIMAN_PEGAWAI_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>1E780D71-8D50-C78D-078F-DB365C1D612F</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2AB5056-35ED-54E0-0110-43C83EE60E3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F4948A1-B542-1882-DD5C-8B216C010E99" name="PENGIRIMAN_PEMESANAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>140F65DF-985C-C3CB-852F-AE47A11E06AC</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E940EA5B-9E06-8168-85C8-469AAB6D3C3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="8712174E-E7EB-49E5-190D-22E93A814758" name="PELANGGAN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6381B8B3-6029-20DC-5090-F6BF3DEE6EE7" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BCA47495-0D9B-581D-6F6E-C653BDF19375" name="ALAMAT" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6381B8B3-6029-20DC-5090-F6BF3DEE6EE7" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="CE841BE2-096D-D91B-2C0B-7F3EF4AA16C8" name="NOTA_PERSEWAAN_ALAT_PENDAKIAN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="6381B8B3-6029-20DC-5090-F6BF3DEE6EE7" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="87A3E449-2550-FC28-ACF6-E4E365F1854A" name="Relation_3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="6381B8B3-6029-20DC-5090-F6BF3DEE6EE7" propertySourceId="BCA47495-0D9B-581D-6F6E-C653BDF19375" propertyTargetId="CE841BE2-096D-D91B-2C0B-7F3EF4AA16C8"/>
+   <object objectType="Relation" objectID="E315781D-BB12-727F-147F-3C6AB268A6F5" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="6381B8B3-6029-20DC-5090-F6BF3DEE6EE7" propertySourceId="8712174E-E7EB-49E5-190D-22E93A814758" propertyTargetId="CE841BE2-096D-D91B-2C0B-7F3EF4AA16C8"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

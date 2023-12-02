@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9016DCAA-B492-F8E4-9DD3-7CDAF31A5DD6" name="PELANGGAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 22:36:25 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="4578A75E-8AAE-AF61-19D9-B05AD7B0DDF8">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 22:37:39 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama" id="F6D56D69-2916-1B37-E1EF-C2D29AC84E1C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 22:38:04 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telepon" id="8FC4932B-FF70-DF9D-A5EA-5F663F984F72">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 22:39:07 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="06432D05-FB58-39C1-419A-CB94A0FBE4F1">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 23:38:48 UTC</createdTime>
+<generatorID>D42906F0-CB40-015E-117D-B820BE263D66</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>41DFEC82-A50E-023A-57D7-E15054E36FE1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode_pos" id="AEBBC8E6-48C6-9ED6-0965-454AC199A52B">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 03:04:45 UTC</createdTime>
+<generatorID>389C0E80-1B49-5454-68A7-75C81097FE2F</generatorID>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<referedAttribute>77AFDF58-A010-690A-C7DF-AAE246262B1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D82DD388-36D3-0D7F-4B7D-90652AE54284" name="PELANGGAN PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 22:37:59 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4578A75E-8AAE-AF61-19D9-B05AD7B0DDF8</attributeRef>
+<attributeRef>06432D05-FB58-39C1-419A-CB94A0FBE4F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

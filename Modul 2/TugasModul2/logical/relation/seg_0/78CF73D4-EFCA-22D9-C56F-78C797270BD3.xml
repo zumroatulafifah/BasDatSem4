@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MENCAKUP" directorySegmentName="seg_0" id="78CF73D4-EFCA-22D9-C56F-78C797270BD3">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 05:22:02 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0A224F38-DE8F-AA96-1808-A3D87B02F176</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1107B883-2406-DA09-8304-D3C9C06F2653</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

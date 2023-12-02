@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D0E6B23-6B5A-28EE-1E49-319E340D0387" name="JURUSAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>1EEEDCE1-38B9-0FCC-140B-6F4E6C174520</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_jurusan" id="5FB9D8BE-7615-AAFA-A3A0-38BEC15949F6">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>69ED1F64-0CE7-76CC-FAC7-27F77140A739</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_jurusan" id="B10537A4-3C23-BFD4-6344-4164B848CCDF">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>CFCDAD5A-F16D-A235-4CBA-B21A4222751C</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dosen" id="4FEBACFA-9073-1FBA-D79A-2637F8DED52C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>1383A08C-BDA4-AA9C-D9E6-BAB4FED554B7</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DC9665A-08FE-62A4-CA82-C5D87B3F5C0E" name="JURUSAN_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-28 04:43:13 UTC</createdTime>
+<generatorID>9B5224FF-CB4B-4C64-47F6-94537D53598F</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FB9D8BE-7615-AAFA-A3A0-38BEC15949F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

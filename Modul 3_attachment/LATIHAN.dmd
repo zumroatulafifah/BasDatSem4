@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="LATIHAN" id="2BB83789-C2DF-ABCA-E81C-5DD17EE68D50" version="3.5">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-27 15:52:00 UTC</createdTime>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2BB83789-C2DF-ABCA-E81C-5DD17EE68D50</designId>
+</OSDM_Design>

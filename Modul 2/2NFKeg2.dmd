@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="2NFKeg2" id="53688B56-BB3A-BE52-32EB-05A897A05962" version="3.5">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-26 13:21:17 UTC</createdTime>
+<ownerDesignName>2NFKeg2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>53688B56-BB3A-BE52-32EB-05A897A05962</designId>
+</OSDM_Design>

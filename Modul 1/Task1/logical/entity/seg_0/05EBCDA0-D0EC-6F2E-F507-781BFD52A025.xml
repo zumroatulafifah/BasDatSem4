@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="05EBCDA0-D0EC-6F2E-F507-781BFD52A025" name="PEGAWAI">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:51:10 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="E498353E-04FB-0817-5535-FE6106BC11B8">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:51:29 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAMA DEPAN" id="B758844D-718A-6197-8F45-3B34A8DFC311">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:51:56 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAMA BELAKANG" id="D815D6FC-B75D-AC29-5272-DCDBF664A6AE">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:52:25 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TANGGAL LAHIR" id="EAB83894-1288-EAD1-56D2-C7CD73228D50">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:52:50 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GAJI" id="3AF0100D-694D-3235-EC89-2EDCE76885CC">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:53:13 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TARGET PENJUALAN" id="6B24C500-C772-B7B5-8BB5-DB5559EDBCA3">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:53:33 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A3B650B-C450-90B8-E003-61F4AF22BF55" name="PEGAWAI PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 14:51:51 UTC</createdTime>
+<ownerDesignName>Task1</ownerDesignName>
+<engineerTo>
+<item key="1A0BEBFD-0552-F6E8-9384-2B161C5C2274" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E498353E-04FB-0817-5535-FE6106BC11B8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

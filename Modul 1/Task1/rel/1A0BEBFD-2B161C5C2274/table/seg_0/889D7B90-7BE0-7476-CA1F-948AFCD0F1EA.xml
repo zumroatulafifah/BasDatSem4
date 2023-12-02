@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="889D7B90-7BE0-7476-CA1F-948AFCD0F1EA" name="PEMBAYARAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>D5C2A802-5AB1-107B-7844-D352674FD243</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KWITANSI" id="47C47B0C-D30B-D22B-CB66-8E9EAFDBB5DE">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>AFCA9F2A-52FD-12AB-E0CC-B8C830973FB5</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESANAN_NOMOR_PESANAN" id="9E132AC3-2217-08A7-DBC0-8E224AC80041">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>F9A06B47-7C7B-B42D-7CDE-8E402D947AFE</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D62FDBFB-EE18-7E2A-5857-C36A8C707001" referredColumn="42803867-F5DC-8BCB-EB14-FA2992EBE0E3"/>
+</associations>
+</Column>
+<Column name="PELANGGAN_ID" id="15918D51-74AA-0EC6-EE19-A20A2A9CC685">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>51628C87-4E83-815E-BE25-AD65732328EF</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7142F411-9E52-D710-2C7F-A5AB7A46EF22" referredColumn="4C5AAFD3-D518-F19B-338B-6EF8E5AF8702"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92FD8D44-064B-E974-B6F9-783432150E63" name="PEMBAYARAN_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>AACD5CF8-705F-9EEF-5CBD-7F172DBC1447</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E132AC3-2217-08A7-DBC0-8E224AC80041"/>
+<colUsage columnID="15918D51-74AA-0EC6-EE19-A20A2A9CC685"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="484A2C58-EE55-B571-57E5-159A8DD12A22" name="PEMBAYARAN_PESANAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>9BCBC820-E17C-25E3-317F-1A06A3FC866E</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E132AC3-2217-08A7-DBC0-8E224AC80041"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF44A767-5F11-5166-AF9C-3C90F1B08415" name="PEMBAYARAN_PELANGGAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>77DAD4AD-FA78-2005-D83E-7A39CDEADE20</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15918D51-74AA-0EC6-EE19-A20A2A9CC685"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

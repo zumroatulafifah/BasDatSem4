@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8712174E-E7EB-49E5-190D-22E93A814758" name="PELANGGAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:54:50 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomor" id="7FFFD8C0-A6EC-1A04-923E-75C3B5A74A82">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:55:37 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama" id="23B5E5F7-7C7B-1787-F651-B62E145B7E84">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:56:06 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telepon" id="4339953E-9CA8-694F-3441-E25B4D34A999">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:56:51 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jaminan" id="ED47CFCC-EB6D-FCD9-9274-F4827AEBCE51">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 16:53:16 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B778A2ED-B43A-FD83-FB6C-84DF4A85B689" name="PELANGGAN PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 00:55:45 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7FFFD8C0-A6EC-1A04-923E-75C3B5A74A82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

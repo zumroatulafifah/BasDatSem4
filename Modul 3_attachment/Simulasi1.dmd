@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Simulasi1" id="3FDF0CB6-A33E-8DBD-7EAF-C2E78B7350AE" version="3.5">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 11:46:30 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3FDF0CB6-A33E-8DBD-7EAF-C2E78B7350AE</designId>
+</OSDM_Design>

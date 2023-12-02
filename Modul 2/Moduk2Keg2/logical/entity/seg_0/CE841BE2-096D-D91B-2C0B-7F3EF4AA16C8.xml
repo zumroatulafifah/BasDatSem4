@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE841BE2-096D-D91B-2C0B-7F3EF4AA16C8" name="NOTA_PERSEWAAN_ALAT_PENDAKIAN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 12:57:49 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_kasir" id="77820AF8-1BFA-FAF1-D6F7-C4E95C58BC0F">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:00:25 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_kasir" id="AA934AB8-D12B-F7ED-914D-DB8D03645A0D">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:00:38 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_nota" id="A7AA004D-9A7C-FDC8-87E4-2EDDC89D7CC0">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:01:14 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_sewa" id="1E35E6DA-49E1-3428-A7DF-E5C871EF8725">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:01:54 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tgl_kembali" id="48DBEA8E-099E-B812-3348-D6913C7E8CEC">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:02:13 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode_barang" id="8D3F99AA-0912-9165-0CEE-E36AAEEE7481">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:16:05 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_barang" id="D80321F5-21FD-8BB9-2799-E3DF00B70A7B">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:16:22 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode_jenis" id="2D6D93EC-A719-25D9-0E6D-E0C64129EBA9">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:16:42 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis_barang" id="D997A277-AF77-C5E9-5D09-B157E454E399">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:19:53 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga" id="9E65A4C9-1440-C1C4-7615-074856123C55">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:21:28 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qty" id="0D2F837F-0FE3-C64F-A493-E6CB5500F81C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:24:02 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="C1869D34-001A-9401-30B6-ABA8752E4FDD">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:24:57 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomor" id="BCBE948E-ED9E-464A-12EA-C6188D1E1DEE">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:41:18 UTC</createdTime>
+<generatorID>E315781D-BB12-727F-147F-3C6AB268A6F5</generatorID>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<referedAttribute>7FFFD8C0-A6EC-1A04-923E-75C3B5A74A82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_rumah" id="78BB5A0A-02B7-131E-E873-8B91688418BC">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:43:56 UTC</createdTime>
+<generatorID>87A3E449-2550-FC28-ACF6-E4E365F1854A</generatorID>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<referedAttribute>872C801C-9B70-A85E-09F8-DDC0B77D2606</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grand_total" id="7D09B1AF-BA61-CC4B-8030-B52F9F49FA5C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-27 16:52:57 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D9836E2-443F-6A2A-5387-C6F4F693B8D0" name="NOTA_PERSEWAAN_ALAT_PENDAKIAN PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 13:00:57 UTC</createdTime>
+<ownerDesignName>Moduk2Keg2</ownerDesignName>
+<engineerTo>
+<item key="9BF8F1EE-5D82-9471-7D75-942A8F3EDE2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77820AF8-1BFA-FAF1-D6F7-C4E95C58BC0F</attributeRef>
+<attributeRef>BCBE948E-ED9E-464A-12EA-C6188D1E1DEE</attributeRef>
+<attributeRef>8D3F99AA-0912-9165-0CEE-E36AAEEE7481</attributeRef>
+<attributeRef>2D6D93EC-A719-25D9-0E6D-E0C64129EBA9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

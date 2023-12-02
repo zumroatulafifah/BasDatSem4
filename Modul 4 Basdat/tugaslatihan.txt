@@ -1,0 +1,11 @@
+1. 
+select min(hire_date), max(hire_date) from employees
+
+2. 
+select max(salary) from employees where manager_id = 103
+
+3.
+select sum(salary) as gaji_karyawan from employees where first_name like 'B%'
+
+4.
+select department_id, avg(salary) from employees group by department_id order by avg(salary) desc

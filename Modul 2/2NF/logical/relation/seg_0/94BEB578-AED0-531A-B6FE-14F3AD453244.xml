@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MEMPUNYAI" directorySegmentName="seg_0" id="94BEB578-AED0-531A-B6FE-14F3AD453244">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 06:55:31 UTC</createdTime>
+<ownerDesignName>2NF</ownerDesignName>
+<engineerTo>
+<item key="3570BD5D-7A40-6E23-D198-AEE021283F2B" value="true"/>
+</engineerTo>
+<sourcePk>07AB2B22-970E-8681-EE15-079588DF853E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1396222F-09A8-141E-BCEB-020A376AF498</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>83479C5B-CF7F-8452-69F7-C7071A28EA1F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

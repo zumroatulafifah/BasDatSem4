@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="495457E3-FE2D-0760-75F9-80F940E216AE" mainViewID="C54482F7-A84E-26C0-30E4-0A88679374FF">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 07:01:14 UTC</createdTime>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

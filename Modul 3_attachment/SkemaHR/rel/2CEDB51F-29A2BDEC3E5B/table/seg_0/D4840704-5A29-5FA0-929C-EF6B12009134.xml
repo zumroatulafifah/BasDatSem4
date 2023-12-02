@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4840704-5A29-5FA0-929C-EF6B12009134" name="JOB_HISTORY">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>0D87D4FC-F71B-0827-DAF2-8E43B310F195</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="7B6E492E-4E49-A682-4205-37864ED07899">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>079DD949-62B6-0786-918F-ABDE60B8B229</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="E2631560-A16F-75D9-3852-7E82086E21A2">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>E7306AE0-B3CD-9B8B-D645-3DD5BD7ABF43</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="6BA4830C-F520-8668-4B11-402C83EFE5A0">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>6607E39D-568D-895A-C8B8-8486ED3DF2A6</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_id" id="AC52DDFB-DFC9-6C31-3E5B-464159E5B8FE">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>9FE404DA-1F0E-C656-D6BA-4BEB7A279642</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="departement_id" id="603B2117-6204-26A7-1FBB-6627712E9B3D">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>0C1AF36C-A8DA-12F0-CB2F-19D0C9AB0C57</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTEMENTS_departement_id" id="923AEDEB-E281-3978-7821-1612546F5548">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>FE071F44-E9F8-33B1-0512-FA87489E9197</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76679BB9-079E-8E46-BE45-728D19DB4D35" referredColumn="E2DE3888-10A5-803A-D54C-5E170F9BE3C8"/>
+</associations>
+</Column>
+<Column name="JOBS_job_id" id="9CBCC2C1-669F-0AA3-5D4F-F687C83A14F4">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>3B565725-DD15-2A0C-ACED-9EA8E529228E</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23D12D2F-7EB8-7AA0-9443-DA8BDF2A70EB" referredColumn="4DF19E2B-B0F6-41C8-C825-EE69D3CC255A"/>
+</associations>
+</Column>
+<Column name="EMPLOYEES_employee_id" id="BD7C3E73-12F1-765F-E3B3-BCD046AD861D">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>F2E1903A-D870-FA32-CDD1-0E97DF9AC4B8</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E7B9B1A-ED98-DF08-53D2-D6857D483F0C" referredColumn="52C745E3-F2CC-C3C4-A574-8A00A8124E3D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75903036-2D92-69AB-CAD0-14BF0358B887" name="JOB_HISTORY_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>9B9F28E9-A007-E090-7EBA-815D27992746</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B6E492E-4E49-A682-4205-37864ED07899"/>
+<colUsage columnID="E2631560-A16F-75D9-3852-7E82086E21A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12C3B954-1FDF-D89C-71CE-9361DDE57843" name="JOB_HISTORY_DEPARTEMENTS_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>D18EAB28-997F-96A2-B254-5B2156A9B96F</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="923AEDEB-E281-3978-7821-1612546F5548"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DEF04F6-407B-4C9B-6BE7-0E6916282D8E" name="JOB_HISTORY_JOBS_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>3B6F9CF4-129A-7E2A-2F2B-5E99692E9469</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CBCC2C1-669F-0AA3-5D4F-F687C83A14F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98AA35D6-4880-2011-3833-F0E784F24C56" name="JOB_HISTORY_EMPLOYEES_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>4C775E1A-6361-4D4B-AEF2-CD86FD262079</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD7C3E73-12F1-765F-E3B3-BCD046AD861D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

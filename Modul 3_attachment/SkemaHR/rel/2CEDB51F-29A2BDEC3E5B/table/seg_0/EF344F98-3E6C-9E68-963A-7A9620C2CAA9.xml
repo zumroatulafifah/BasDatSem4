@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF344F98-3E6C-9E68-963A-7A9620C2CAA9" name="DEPARTEMENTS">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>C0CAB2DC-E494-D7C2-660E-D467FAB5F29D</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="departement_id" id="E2DE3888-10A5-803A-D54C-5E170F9BE3C8">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>928F9949-B1B7-4B42-7769-7F76EBC8C9BA</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="departement_name" id="F7F15D5E-C137-F260-8CCD-7DDADA24E8A3">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>65CD1AB9-98A7-1D6F-0371-4BC1C396DABE</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="manager_id" id="B19277DD-6E65-AB19-C54F-43750C38CD8E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>3671A4FB-6013-1451-E68D-51132199F938</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_id" id="17F12D8F-3348-C625-0D55-F5E06C94CF93">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>DD379121-6757-93C1-BED3-F9E124A5F638</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCATIONS_location_id" id="CDF0FD91-FF2B-318F-177E-4F657E334A46">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>3DBEFDC6-E6C0-762E-016A-0C8D18E12CF6</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="486D86DF-F40C-AAB3-F4B2-DE81A30FA3DD" referredColumn="BC0236E7-2246-CB20-504E-630C71F15E31"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1D0E52C-810D-8928-6086-5559A601D9FD" name="DEPARTEMENTS_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>8B75D5CC-1946-9BA7-21C3-86E774CC76B3</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2DE3888-10A5-803A-D54C-5E170F9BE3C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AADCEDCF-1325-B7C8-D308-64CEF27BC54C" name="DEPARTEMENTS_LOCATIONS_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>AA48599B-7EC8-BEFB-E05E-58E2DACC7B35</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDF0FD91-FF2B-318F-177E-4F657E334A46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="dipesan" directorySegmentName="seg_0" id="4CAF0380-07C1-4D78-795C-5EC7FEFE7C1C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-05-01 13:43:59 UTC</createdTime>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<engineerTo>
+<item key="F74018C3-85BE-79A8-1CD1-CF7D2B7B6798" value="true"/>
+</engineerTo>
+<sourcePk>9E9B607F-7ED9-19B3-359E-CD4DF6FCD753</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>dipesan</nameOnSource>
+<nameOnTarget>pesanan</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>420F1032-2629-4C22-D156-514AF32A860F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>705A11C9-39A5-4CD4-4A23-1738E2A96B57</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

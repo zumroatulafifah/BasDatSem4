@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="mengambil" directorySegmentName="seg_0" id="D2C7B80E-927E-BCA4-DBF3-2B08FF18712E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-27 15:56:12 UTC</createdTime>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<engineerTo>
+<item key="6324D5B1-26FC-7E75-B68D-7A85545F99FA" value="true"/>
+</engineerTo>
+<sourcePk>9B5224FF-CB4B-4C64-47F6-94537D53598F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1EEEDCE1-38B9-0FCC-140B-6F4E6C174520</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E58A815E-8A85-0CE1-9A26-70BD6FE21DD5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

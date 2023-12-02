@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MEMESAN" directorySegmentName="seg_0" id="F765DB39-1B4D-2C94-3CDC-C8516FA7F313">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 16:08:04 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<sourcePk>C6FA01F6-2EE3-255D-91E1-10E2A3BD65D5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AA5F78CC-3FEA-FE53-33B3-84008937402A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD6266AA-3713-2733-6BF2-AA977E8DD8E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

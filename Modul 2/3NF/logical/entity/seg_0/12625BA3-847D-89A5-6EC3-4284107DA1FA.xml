@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="12625BA3-847D-89A5-6EC3-4284107DA1FA" name="PASIEN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 08:56:35 UTC</createdTime>
+<ownerDesignName>3NF</ownerDesignName>
+<engineerTo>
+<item key="A389AD28-F198-869A-8754-78C93CA92A9F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No Pasien" id="13896284-F8A1-5C52-D0B6-F8B016F09084">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 08:56:35 UTC</createdTime>
+<ownerDesignName>3NF</ownerDesignName>
+<importedID>96F67636-1EA6-2149-7FA2-5F62176700BA</importedID>
+<engineerTo>
+<item key="A389AD28-F198-869A-8754-78C93CA92A9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No Penduduk" id="8978AF50-1B92-019B-258A-59BD3A32FCBD">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 08:56:35 UTC</createdTime>
+<ownerDesignName>3NF</ownerDesignName>
+<importedID>483A12D7-9B97-7E48-A2FB-7987A81E3ADA</importedID>
+<engineerTo>
+<item key="A389AD28-F198-869A-8754-78C93CA92A9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama Pasien" id="7BEDFD9C-104E-F03C-5E09-05EE7857A5B6">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 08:56:35 UTC</createdTime>
+<ownerDesignName>3NF</ownerDesignName>
+<importedID>6C017B91-6894-1468-1B5E-BE6EFCC58EE5</importedID>
+<engineerTo>
+<item key="A389AD28-F198-869A-8754-78C93CA92A9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telepon" id="7763C021-964D-03A1-AF2E-0E6CD5D886C1">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 08:56:35 UTC</createdTime>
+<ownerDesignName>3NF</ownerDesignName>
+<importedID>BAF48939-5249-7A92-FE31-7CEB6F9CDF61</importedID>
+<engineerTo>
+<item key="A389AD28-F198-869A-8754-78C93CA92A9F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kode Pos" id="FA1385AE-9BE2-93D0-9A77-25A6EBAF25CD">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 08:56:35 UTC</createdTime>
+<generatorID>9A215F55-BECA-20B9-0F95-18C1B12E768A</generatorID>
+<ownerDesignName>3NF</ownerDesignName>
+<importedID>0111917E-F489-C531-BCE0-DA2C9568ABE8</importedID>
+<engineerTo>
+<item key="A389AD28-F198-869A-8754-78C93CA92A9F" value="true"/>
+</engineerTo>
+<referedAttribute>36EF54B4-3AEB-3A93-F41C-F6E6F61E030E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3CA2947F-76F4-DC8E-DCE4-F5D4414D9B6A" name="PASIEN PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 08:56:35 UTC</createdTime>
+<ownerDesignName>3NF</ownerDesignName>
+<engineerTo>
+<item key="A389AD28-F198-869A-8754-78C93CA92A9F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13896284-F8A1-5C52-D0B6-F8B016F09084</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

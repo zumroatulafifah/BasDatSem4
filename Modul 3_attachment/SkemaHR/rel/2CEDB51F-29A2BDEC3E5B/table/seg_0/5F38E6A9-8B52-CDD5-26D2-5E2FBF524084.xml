@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F38E6A9-8B52-CDD5-26D2-5E2FBF524084" name="LOCATIONS">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>86D0406E-85F8-AE58-CD15-053DC909E4CF</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="location_id" id="BC0236E7-2246-CB20-504E-630C71F15E31">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>F6D2BD8A-F249-7A9B-E22E-48F3505E4AE0</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street_address" id="D84A2826-576D-7EAF-5BA9-BB27C09480BC">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>62F09767-D4D3-9B57-7D51-FEE66EF34EE1</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postal_code" id="E20BE30D-9A43-9529-19D4-7698C4DB844B">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>84740923-B364-ADE3-5FBE-8F28C85FE2AB</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="B29E8E94-89B9-E946-ACF7-DA7CBD7D2C78">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>44D1E607-DDDD-11A9-D47C-F6E345C82667</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state_province" id="CDB809FF-6FC1-493F-9658-CC981206971F">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>CFA08A53-D249-1C23-6792-B040373F712A</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_id" id="5572DFF7-6E90-6606-9179-B7200B912317">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>DE4A54E2-6DD3-04FC-66CB-D73C407005C1</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRIES_country_id" id="9155E59A-BE69-9481-3A74-2F8EB9040BB0">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>41D88ECB-D247-16D6-692A-BC9116D5F794</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A565183-93CA-BF72-F502-E792CAF2119F" referredColumn="BF9D5103-67FA-5B1A-C732-50C2F3CFF648"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BBEEE9B-E060-A868-40D2-3C44DDFA0D35" name="LOCATIONS_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>18DB6FF0-5A36-EBFB-1434-27A3AD11A2AC</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC0236E7-2246-CB20-504E-630C71F15E31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69B42227-9C27-1A01-CA44-83E08DFEB01D" name="LOCATIONS_COUNTRIES_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>49D9C73D-9DDB-4F06-B4ED-F4AD9D256AA3</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9155E59A-BE69-9481-3A74-2F8EB9040BB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

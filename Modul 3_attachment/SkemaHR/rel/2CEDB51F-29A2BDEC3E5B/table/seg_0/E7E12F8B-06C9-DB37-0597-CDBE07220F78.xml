@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7E12F8B-06C9-DB37-0597-CDBE07220F78" name="COUNTRIES">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>3EBA7B6A-5421-A6D2-4CC6-9707447C44D4</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="country_id" id="BF9D5103-67FA-5B1A-C732-50C2F3CFF648">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>45632E1F-2E43-B175-E8D7-DA6868B995B3</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_name" id="1E334BF3-1AE9-91F9-8F2F-994F62EDD595">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>5D89CBC0-8824-6228-002D-DA7648FE689B</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region_id" id="3A6BB9C1-764D-04D9-2D72-48457BD4CE5C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>DAE8A2CB-BB84-9896-ACF8-6C4B5B0A0FBC</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGIONS_region_id" id="C9AB7D8D-A437-C50D-10F3-E6197CB32254">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>2087F3B4-1484-D27F-D61F-AC126EA87FFE</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="679B4D63-7CB0-FB40-B0E2-4D6403B45AA9" referredColumn="92782F87-7314-DFBF-9EA4-A6CFABF65F32"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62EDDA40-6565-C7F3-8461-0A64DD17A86A" name="COUNTRIES_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>BA4ADE1D-D377-F0FA-66C4-11E0DDEBB5F4</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF9D5103-67FA-5B1A-C732-50C2F3CFF648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD67F45A-0737-BEE8-1785-62A44000B423" name="COUNTRIES_REGIONS_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-09 12:17:32 UTC</createdTime>
+<generatorID>122CCEE2-28C6-7A97-0A68-ED7FE2D85DB1</generatorID>
+<ownerDesignName>SkemaHR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9AB7D8D-A437-C50D-10F3-E6197CB32254"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

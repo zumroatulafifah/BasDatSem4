@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="KIRIM BARANG" directorySegmentName="seg_0" id="7EBE8AC0-2A18-1F78-0C59-2CD176070602">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-12 15:04:09 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<sourcePk>DE552BC6-B307-FFBD-2B67-0CD5B256550E</sourcePk>
+<targetPk>C6FA01F6-2EE3-255D-91E1-10E2A3BD65D5</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>26E8C176-952E-1F29-B1F9-E9D90ED7723A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AA5F78CC-3FEA-FE53-33B3-84008937402A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

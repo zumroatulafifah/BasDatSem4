@@ -1,0 +1,11 @@
+1 : 1 = artinya setiap entitas pertama hanya dibolehkan memiliki satu kejadian dengan entitas kedua dan berlaku sebaliknya.
+
+contoh : satu makhluk hidup hanya mempunyai satu nyawa, dan satu nyawa hanya dimiliki satu makhluk hidup
+
+1 ; N = artinya entitas pertama hanya boleh memiliki satu kejadian dengan entitas kedua, tetapi entitas kedua dapat memiliki banyak kejadian dengan entitas pertama dan berlaku sebaliknya.
+
+contoh : setiap hewan peliharaan hanya memiliki satu pemilik, tetapi setiap pemilik dapat memiliki satu/ lebih hewan peliharaan.
+
+M : N = artinya entitas pertama dapat berhubungan banyak dengan entitas kedua, dan  berlaku sebaliknya
+
+contoh : setiap mahasiswa bisa mengambil banyak mata kuliah, dan mata kuliah bisa diambil oleh banyak mahasiswa

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF5750CD-A102-BE0B-E4E0-79577AB7208F" name="ADMIN">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>58A4EA55-50CF-2EBD-959C-ED4B7E8B9C6A</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USER" id="E79C0F82-673F-CD71-A778-9E3DD9FEDEF2">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>5E66B0C7-B7EF-E64A-9F05-508378383043</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="760B77AA-68A2-8A82-CD4B-D4B35B1527C2" referredColumn="59DFA380-FBBA-8C35-4A6B-50F1DFEEE60B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CFB2BBD-8C6A-CD89-CB49-5B696672876C" name="ADMIN_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>7E1A5718-F756-4D6B-702B-F63AC830DC68</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E79C0F82-673F-CD71-A778-9E3DD9FEDEF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37564F92-8B06-53B0-AC4A-81E24E02CBD0" name="ADMIN_USER_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>18D55F3D-88D0-C418-EE79-D6F88C366E55</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E79C0F82-673F-CD71-A778-9E3DD9FEDEF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

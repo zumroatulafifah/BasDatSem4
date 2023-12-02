@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1107B883-2406-DA09-8304-D3C9C06F2653" name="OBAT">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:55:31 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kode Obat" id="A9E55D32-048E-D2F6-3672-E71AAE14F8E4">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:55:46 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama Obat" id="29423870-CDF4-18CD-02F5-5CC26A4F27C1">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:56:02 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dosis" id="F0432A3E-EEF5-067F-77E7-00BF6D565728">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:56:36 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="500B973B-F854-529B-4CB4-2B807DDAB117" name="OBAT PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:55:59 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9E55D32-048E-D2F6-3672-E71AAE14F8E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

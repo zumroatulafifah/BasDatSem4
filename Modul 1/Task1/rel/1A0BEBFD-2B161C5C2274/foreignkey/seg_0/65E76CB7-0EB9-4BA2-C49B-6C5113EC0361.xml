@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="65E76CB7-0EB9-4BA2-C49B-6C5113EC0361" containerWithKeyObject="44B3B8C1-263C-1296-B151-747553CA8D7E" localFKIndex="E871A0DC-E71A-F465-EA96-540D6D19A84B" name="MANAGER_PEGAWAI_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>273D2DAC-3EFC-1738-2857-0A408C90DF94</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<referredTableLongName>PEGAWAI</referredTableLongName>
+<arc>2186C34D-F15D-C9D6-CC12-218238324C87</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>608D3D2C-2D40-602E-BEC9-E5276AEB9A2C</referredTableID>
+<keyObject>5EDEC85C-DB76-F88A-485E-3833A5881CB6</keyObject>
+<referredKeyID>5EDEC85C-DB76-F88A-485E-3833A5881CB6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

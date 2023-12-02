@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC3C8A6E-E77C-ABB8-C7D8-45A2F5375419" name="tb_kategori">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 13:18:32 UTC</createdTime>
+<generatorID>C4A7969D-B908-3307-9DB3-7EF460BAE034</generatorID>
+<ownerDesignName>Latihan1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kategori" id="1C3CEDBC-61EF-BDA9-D896-51F4E8D0CC71">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 13:18:32 UTC</createdTime>
+<generatorID>4C9C33DA-3008-2ABE-C514-164C51C29307</generatorID>
+<ownerDesignName>Latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_kategori" id="A6325B73-9AD2-E117-BCF3-1882570AD329">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 13:18:32 UTC</createdTime>
+<generatorID>CBE81E6C-6A9A-84B0-16F2-3BD1C12FBFED</generatorID>
+<ownerDesignName>Latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="175DCCF7-94C7-393D-2C7C-FE95240F3A04" name="tb_kategori_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 13:18:32 UTC</createdTime>
+<generatorID>DD72D9BC-8E40-F6B7-C900-1AA6C62F2642</generatorID>
+<ownerDesignName>Latihan1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C3CEDBC-61EF-BDA9-D896-51F4E8D0CC71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

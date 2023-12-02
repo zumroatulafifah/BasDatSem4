@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E58A815E-8A85-0CE1-9A26-70BD6FE21DD5" name="MAHASISWA">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-27 15:53:14 UTC</createdTime>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<engineerTo>
+<item key="6324D5B1-26FC-7E75-B68D-7A85545F99FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mhs" id="E2CE7AB6-312F-FAD6-CA3C-3ACD4E16374A">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-27 15:53:21 UTC</createdTime>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<engineerTo>
+<item key="6324D5B1-26FC-7E75-B68D-7A85545F99FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_mhs" id="488C821B-357A-7D8C-B530-130D5114E8F3">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-27 15:53:33 UTC</createdTime>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<engineerTo>
+<item key="6324D5B1-26FC-7E75-B68D-7A85545F99FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="1A8C3D3D-A4D9-0766-324B-F6DE9B588C8E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-27 15:54:01 UTC</createdTime>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<engineerTo>
+<item key="6324D5B1-26FC-7E75-B68D-7A85545F99FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_jurusan" id="EC8A4954-A1B3-AD14-B16B-772A439F3AAF">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-27 15:56:12 UTC</createdTime>
+<generatorID>D2C7B80E-927E-BCA4-DBF3-2B08FF18712E</generatorID>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<engineerTo>
+<item key="6324D5B1-26FC-7E75-B68D-7A85545F99FA" value="true"/>
+</engineerTo>
+<referedAttribute>69ED1F64-0CE7-76CC-FAC7-27F77140A739</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78CA02E7-CEA0-BBC5-8A60-DB5A93B76025" name="MAHASISWA PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-04-27 15:53:27 UTC</createdTime>
+<ownerDesignName>LATIHAN</ownerDesignName>
+<engineerTo>
+<item key="6324D5B1-26FC-7E75-B68D-7A85545F99FA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2CE7AB6-312F-FAD6-CA3C-3ACD4E16374A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

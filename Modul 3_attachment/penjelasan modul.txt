@@ -1,0 +1,26 @@
+CREATE TABLE <nama table yang ingin dibuat>
+
+#tidak bergantung pada huruf kecil dan huruf besar 
+
+untuk cek tabel bisa menggunakan describe
+
+alter, jika ingin menambahkan kolom baru di tabel yang sudah ada
+
+ddl terkait dengan modifikasi struktur tabel
+dml terkait dengan modifikasi isi tabel nya 
+
+insert = memasukkan data kedalam table
+- manual nya di set opsional blm mandatory
+
+select = untuk menampilkan data 
+select + * = gunanya untuk memunculkan semua adata yang ada di table 
+where address = tirto --> gunanya untuk misal kita ingin menampilkan data dengan semua yang memiliki alamat di tirto 
+
+update = mau mengganti isi data 
+
+where id member ghina (atau data yang ingin dirubah)
+
+UID harus unik 
+
+
+

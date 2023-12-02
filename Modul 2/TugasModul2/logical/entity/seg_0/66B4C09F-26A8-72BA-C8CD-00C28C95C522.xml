@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66B4C09F-26A8-72BA-C8CD-00C28C95C522" name="ALAMAT">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:52:42 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kode Pos" id="57FD4ADA-48BD-145E-BB3E-28B6720CA785">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:52:53 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jalan" id="00F66090-2891-0C24-4DE6-CFE1D9F470A9">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:53:12 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kecamatan" id="75AC1E38-3166-946A-493C-3AD078BE92C7">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:53:44 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kelurahan" id="51A76F4C-1912-C942-1A99-179F997A0C78">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:54:14 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Wilayah" id="0B092853-F38B-757E-94FA-4FE94A6A2B68">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:54:43 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7A46F027-B697-BB43-3E8D-22AF29D061C6" name="ALAMAT PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:53:09 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<engineerTo>
+<item key="15E1E953-63C0-8CAA-8122-B4B173CAAEE7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>57FD4ADA-48BD-145E-BB3E-28B6720CA785</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

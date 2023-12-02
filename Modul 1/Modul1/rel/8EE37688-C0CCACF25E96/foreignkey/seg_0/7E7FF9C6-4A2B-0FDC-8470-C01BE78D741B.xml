@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7E7FF9C6-4A2B-0FDC-8470-C01BE78D741B" containerWithKeyObject="CD57056B-18FD-EE93-A84A-6C76D852D0EE" localFKIndex="D0901D54-2A8A-2078-E59B-7ACF5A4C5385" name="PENGIRIMAN_PEMESANAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>7EBE8AC0-2A18-1F78-0C59-2CD176070602</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<referredTableLongName>PEMESANAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>922AB4CF-CA53-49C2-C840-D77CD22DF9D7</referredTableID>
+<keyObject>3EE8B7CB-6DDE-F2F6-863B-AC9004FC6A5F</keyObject>
+<referredKeyID>3EE8B7CB-6DDE-F2F6-863B-AC9004FC6A5F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NOMOR_PEMESANAN</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BISA MENJADI" directorySegmentName="seg_0" id="7E01FB57-87EA-E734-2D5B-3924DE8C79FB">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-13 12:32:16 UTC</createdTime>
+<ownerDesignName>Modul1</ownerDesignName>
+<engineerTo>
+<item key="8EE37688-402C-5122-FE27-C0CCACF25E96" value="true"/>
+</engineerTo>
+<targetPk>7E1A5718-F756-4D6B-702B-F63AC830DC68</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E90F24C0-52F6-EF9C-96AC-E950F713170E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E90F24C0-52F6-EF9C-96AC-E950F713170E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

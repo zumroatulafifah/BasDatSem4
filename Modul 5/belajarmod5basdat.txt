@@ -1,0 +1,19 @@
+natural join = menggabungkan 2 tabel yang memiliki namam column yang sama
+
+inner join = menggabungkan 2 tabel, tapi dia ini adda kriterianya
+
+
+
+
+select pe.nama_pegawai, pe.department, p.nama_pelanggan, p.city from pegawai pe right outer join pelanggan p on pe.pelanggan_id = p.pelanggan_id
+
+select pe.pegawai_id, pe.department, p.city from pegawai pe right outer join pelanggan p on pe.pegawai_id = p.pegawai_id
+
+penerapan right, left, full join pakek command diatas
+
+
+
+
+select pe.nama_pegawai, pel.nama_pelanggan from pegawai pe cross join pelanggan pel
+
+command diatas itu contoh cross join, cross join itu kayak fungsi, setiap table harus dipasangkan di table sebelahnya

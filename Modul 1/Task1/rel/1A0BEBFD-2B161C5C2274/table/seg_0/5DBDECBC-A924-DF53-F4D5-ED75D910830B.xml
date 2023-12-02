@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5DBDECBC-A924-DF53-F4D5-ED75D910830B" name="JENIS_SKINCARE">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>8345D666-D624-5EE4-69F2-7919E7E9F89E</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B5198526-4660-13F5-B663-63E31206F6B4">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>E9175A3B-9A28-72A4-5886-678A435FDA42</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESKRIPSI" id="A2B98459-4D7A-02E2-1091-5FB5D5E126F7">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>28A9C9A0-5008-4675-71FD-CC0CE98EA800</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HARGA" id="3F132D6F-ECF1-D621-9ACF-B448385D02F4">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>484C684C-B882-7946-F4C9-F8D9D6A998D2</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESANAN_NOMOR_PESANAN" id="1B7872D2-0F7C-DA3D-3F5E-E733A78F69B7">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>87367EE6-8853-311F-6508-410BBD2D1636</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B38FC5E3-CE95-B45D-AC19-A360957B3617" referredColumn="42803867-F5DC-8BCB-EB14-FA2992EBE0E3"/>
+</associations>
+</Column>
+<Column name="KATALOG_REGULER_KODE" id="4B21E92F-0105-BE58-0345-25E3E5BED24E">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>F1F6A3DE-4393-30F9-3555-CEC6C3915441</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE630017-F2EC-1C19-C93B-DAB603C3F01E" referredColumn="1A3E20EB-2CCE-9105-4B34-3BB54981B68E"/>
+</associations>
+</Column>
+<Column name="KATALOG_PROMO_KODE" id="62C004E0-CC1A-281C-34E9-CCE78297CE56">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>8AC39F53-2B20-9E81-1F02-0ACAA7FB7867</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="856A302F-A900-FB2B-8D96-8283DF36FF19" referredColumn="85C6E109-9D57-A36E-FE8C-2074EF670642"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC58E566-714A-1CDB-9EEE-E2A80CAD3937" name="JENIS_SKINCARE_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>01A26435-621D-9C2F-1B4B-D0C4330598B5</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5198526-4660-13F5-B663-63E31206F6B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="373BB345-BA41-C503-5BE7-1D0FA591A7AF" name="JENIS_SKINCARE_KATALOG_REGULER_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>56244722-39D0-C3DD-0280-8B807B6D2D41</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B21E92F-0105-BE58-0345-25E3E5BED24E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6153C2D1-AAD9-C2ED-E52C-98DDA8C0AA3D" name="JENIS_SKINCARE_KATALOG_PROMO_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>C45EF60C-1D42-98A3-B43A-A65EA22139AD</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62C004E0-CC1A-281C-34E9-CCE78297CE56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="236B4FD6-887B-A25F-5994-4D2A4972A2F0" name="JENIS_SKINCARE_PESANAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 15:10:21 UTC</createdTime>
+<generatorID>2D3EC7E9-FE80-5D58-E507-B93F351785C1</generatorID>
+<ownerDesignName>Task1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B7872D2-0F7C-DA3D-3F5E-E733A78F69B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

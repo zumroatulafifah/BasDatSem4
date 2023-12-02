@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63FE858E-6944-2833-2C09-3DE2E52567EA" name="tb_detail_buku">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 13:18:32 UTC</createdTime>
+<generatorID>B80DA9AF-1230-A26E-F3B4-2DBE287F4B5D</generatorID>
+<ownerDesignName>Latihan1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detail" id="3EF6A042-4F52-CFC6-9DA9-8728B510440F">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 13:18:32 UTC</createdTime>
+<generatorID>A499D09E-E8B4-6E2B-71A0-9DD0564822F3</generatorID>
+<ownerDesignName>Latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_penulis" id="76F2314F-A895-5657-98AC-BE47FBE0F1DF">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 13:18:32 UTC</createdTime>
+<generatorID>7815D927-8C67-FB24-F7E1-F4656A688B74</generatorID>
+<ownerDesignName>Latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_penerbit" id="ECEB0100-368B-0C8E-120B-45DD4FCDE962">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 13:18:32 UTC</createdTime>
+<generatorID>DF5B9140-847F-FC8B-C884-E2A932BAAF01</generatorID>
+<ownerDesignName>Latihan1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F3948D3-DFF2-9B0F-E04C-3C371E55AC7B" name="tb_detail_buku_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-07 13:18:32 UTC</createdTime>
+<generatorID>BF1B2849-A2F5-E8D5-DE5C-1281ADF4B25B</generatorID>
+<ownerDesignName>Latihan1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EF6A042-4F52-CFC6-9DA9-8728B510440F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

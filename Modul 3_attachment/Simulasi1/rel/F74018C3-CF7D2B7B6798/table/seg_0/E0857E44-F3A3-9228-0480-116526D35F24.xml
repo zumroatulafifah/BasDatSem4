@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0857E44-F3A3-9228-0480-116526D35F24" name="BARANG">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>420F1032-2629-4C22-D156-514AF32A860F</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="kode" id="0DF08C81-958E-D775-2289-C8B497A860AF">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>67290E40-8256-314F-3A67-340D56882496</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="2E8EB363-2C39-F815-2ECC-9F568D4F6D12">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>345F391B-4BDE-8B61-EA80-CE704947B07E</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="warna" id="AF5E5C1F-1FE8-4071-0479-38762237E0C5">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>3889A2ED-B525-7E3E-D7B3-6C8DCA66ACD1</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_jual" id="4A555793-7046-B8A9-F242-B27BA5C340EB">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>3FDACA70-02E4-77F6-1EE7-540776EC0B0A</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_beli" id="1B2B5112-C2BE-3A2F-6568-7CC24ED3A97C">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>84C523EB-5DF9-3843-F86F-C0C43DC8F933</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_id" id="0AC13551-FBBD-1B97-4CCA-D662B4D13DDC">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>DAD50D0B-5847-D50E-425C-9508482E7783</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="971CE574-553D-B7F8-DF9A-820E21D6A20A" referredColumn="85D992D3-E47B-155C-3CB6-4B258C2387ED"/>
+</associations>
+</Column>
+<Column name="PELANGGAN_pelanggan_id" id="DC094296-51D6-5123-8E4C-D2EDE7ABABCB">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>786F9235-6D4D-8604-7765-87C97C9F69A2</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="236F2A82-7495-D650-6DC3-25CE322CC54E" referredColumn="84844EC2-2C8C-1D53-816E-9F974E34294A"/>
+</associations>
+</Column>
+<Column name="KATEGORI_kode" id="28ED305A-5044-F5B3-EF1F-89C1C0ABA5BB">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>21C998C8-E423-9E16-EF65-4C3698EE4A63</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="049E101D-97AB-E741-EC7F-A54629DE77D7" referredColumn="D5F9FA3B-256A-5EEB-3A9F-985440DD8796"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10A35D04-CD84-2940-CA04-92B9A6DFC427" name="BARANG_PK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>9E9B607F-7ED9-19B3-359E-CD4DF6FCD753</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DF08C81-958E-D775-2289-C8B497A860AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10C161E7-0CA2-D55C-FF6C-E696EC4CE4A8" name="BARANG_PELANGGAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>1C3CDBD1-62EB-2F1E-DDBB-6FF3699753FC</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC094296-51D6-5123-8E4C-D2EDE7ABABCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61E42805-D2CE-E13D-345E-B7E7797D100D" name="BARANG_KATEGORI_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>7F36C1E0-5DFF-8DB2-06AA-CE905B02DBFC</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28ED305A-5044-F5B3-EF1F-89C1C0ABA5BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="464D4704-9483-1CD2-4F80-9B12D3B64541" name="BARANG_SUPPLIER_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-06-03 12:43:39 UTC</createdTime>
+<generatorID>F143311E-CF97-8EC0-D0F5-E4CD450ECF35</generatorID>
+<ownerDesignName>Simulasi1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AC13551-FBBD-1B97-4CCA-D662B4D13DDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

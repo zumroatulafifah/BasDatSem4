@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MEMILIKIv1" directorySegmentName="seg_0" id="389C0E80-1B49-5454-68A7-75C81097FE2F">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-25 05:12:17 UTC</createdTime>
+<ownerDesignName>Modul2</ownerDesignName>
+<engineerTo>
+<item key="8434A51A-2469-78E0-4678-37C74F366004" value="true"/>
+</engineerTo>
+<sourcePk>D82DD388-36D3-0D7F-4B7D-90652AE54284</sourcePk>
+<targetPk>4621C56C-1753-CEDE-C09C-AC07CE257AFC</targetPk>
+<identifying>false</identifying>
+<nameOnSource>hanya memiliki</nameOnSource>
+<nameOnTarget>hanya terkait</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9016DCAA-B492-F8E4-9DD3-7CDAF31A5DD6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5376511E-D128-9A09-0BC6-21E366ED0CF3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

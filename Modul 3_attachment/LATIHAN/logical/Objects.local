@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="1EEEDCE1-38B9-0FCC-140B-6F4E6C174520" name="JURUSAN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="8D2C8A41-1C92-1F48-9D2F-C5277AEFB63E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="E58A815E-8A85-0CE1-9A26-70BD6FE21DD5" name="MAHASISWA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="8D2C8A41-1C92-1F48-9D2F-C5277AEFB63E" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="D2C7B80E-927E-BCA4-DBF3-2B08FF18712E" name="mengambil" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="8D2C8A41-1C92-1F48-9D2F-C5277AEFB63E" propertySourceId="1EEEDCE1-38B9-0FCC-140B-6F4E6C174520" propertyTargetId="E58A815E-8A85-0CE1-9A26-70BD6FE21DD5"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

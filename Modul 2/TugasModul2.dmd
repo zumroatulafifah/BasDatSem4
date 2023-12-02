@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="TugasModul2" id="195270F0-DDDB-6A44-24A1-300B1641D06E" version="3.5">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 04:03:24 UTC</createdTime>
+<ownerDesignName>TugasModul2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>195270F0-DDDB-6A44-24A1-300B1641D06E</designId>
+</OSDM_Design>

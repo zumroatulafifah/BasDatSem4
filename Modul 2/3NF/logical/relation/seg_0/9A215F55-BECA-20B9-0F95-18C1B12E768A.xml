@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DIMILIKI" directorySegmentName="seg_0" id="9A215F55-BECA-20B9-0F95-18C1B12E768A">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-24 08:56:35 UTC</createdTime>
+<ownerDesignName>3NF</ownerDesignName>
+<engineerTo>
+<item key="A389AD28-F198-869A-8754-78C93CA92A9F" value="true"/>
+</engineerTo>
+<sourcePk>5DA26C9A-CEA3-0CC8-3A4A-73A36CEACD02</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>104FF682-9F32-08E4-4D5D-B4BFB1429563</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>12625BA3-847D-89A5-6EC3-4284107DA1FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

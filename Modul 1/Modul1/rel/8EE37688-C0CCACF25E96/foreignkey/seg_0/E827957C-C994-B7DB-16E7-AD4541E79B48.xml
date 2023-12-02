@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E827957C-C994-B7DB-16E7-AD4541E79B48" containerWithKeyObject="FB9E81DC-F0CE-5F6A-4127-BF6F2AAB9F23" localFKIndex="E845FD72-87C9-FD69-0FE9-11B789AB7187" name="KREDIT_PEMBAYARAN_FK">
+<createdBy>Zumro&apos;atul Afifah</createdBy>
+<createdTime>2023-03-14 02:30:36 UTC</createdTime>
+<generatorID>0E8694E4-D025-1DEA-AD7F-189BE1329EA3</generatorID>
+<ownerDesignName>Modul1</ownerDesignName>
+<referredTableLongName>PEMBAYARAN</referredTableLongName>
+<arc>C8133359-7C30-F783-CA6C-5BFC593A4D11</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>154F2A77-4B29-7EBA-C8A7-44DB05A222A2</referredTableID>
+<keyObject>E961516C-14E1-6C62-D255-D39D671C025F</keyObject>
+<referredKeyID>E961516C-14E1-6C62-D255-D39D671C025F</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
